@@ -115,9 +115,9 @@ analytics:
 author:
   name             : "Advaith Sriram"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "Robotics Graduate Student at EPFL, Switzerland."
   location         : "Lausanne, Switzerland"
-  linkedin         :  "https://www.linkedin.com/in/advaith-sriram/"
+  linkedin         :  "advaith-sriram"
   email            : "advaith.sriram@epfl.ch"
   links:
     - label: "Email"
