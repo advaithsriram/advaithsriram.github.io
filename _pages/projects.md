@@ -5,7 +5,7 @@ permalink: /projects/
 author_profile: true
 ---
 
-## [Bachelor Thesis: Visual Odometry for Urban Navigation](../projects/visual-odometry)
+## [Bachelor Thesis: Visual Odometry for Urban Navigation](../project/visual-odometry)
 **Type**: Bachelor Thesis | **Institution**: [Your University Name]  
 **Summary**: Developed a visual odometry algorithm using stereo camera input for robust urban navigation.  
 **Outcome**: Published in XYZ Conference 2023.  
@@ -13,7 +13,7 @@ author_profile: true
 
 ---
 
-## [Reinforcement Learning for Legged Locomotion](../projects/legged-rl)
+## [Reinforcement Learning for Legged Locomotion](../project/legged-rl)
 **Type**: Semester Project | **Course**: Learning-Based Control @ EPFL  
 **Summary**: Implemented PPO to train a simulated quadruped robot using PyBullet.  
 Explored various reward structures and gait stabilizations.  
@@ -21,7 +21,7 @@ Explored various reward structures and gait stabilizations.
 
 ---
 
-## [Swarm Robotics Simulation in Unity](../projects/aerial)
+## [Swarm Robotics Simulation in Unity](../project/aerial)
 **Type**: Semester Project | **Course**: Aerial Robotics @ EPFL  
 **Summary**: Developed a Unity-based simulation for aerial robot swarm coordination and viewpoint optimization.  
 Integrated NBV logic with flocking behavior.  

@@ -1,7 +1,7 @@
 ---
 title: "Bachelor Thesis: Visual Odometry"
 layout: single
-permalink: /projects/visual-odometry
+permalink: /project/aerial
 author_profile: true
 ---
 
