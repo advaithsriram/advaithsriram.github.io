@@ -5,24 +5,34 @@ permalink: /projects/
 author_profile: true
 ---
 
-## [Bachelor Thesis: Visual Odometry for Urban Navigation](../project/visual-odometry)
-**Type**: Bachelor Thesis | **Institution**: [Your University Name]  
-**Summary**: Developed a visual odometry algorithm using stereo camera input for robust urban navigation.  
-**Outcome**: Published in XYZ Conference 2023.  
-[GitHub Repo](https://github.com/yourusername/thesis-project)
+## [Bachelor Thesis: Human-to-Robot Handover of Large Objects using Pose Estimation to Overcome Hand Occlusion](../project/robot-handover)
+**Type**: Bachelor Thesis | **Institution**: Waseda University, Tokyo, Japan
+**Summary**: 
+- Developed a DNN regression model using a pose-driven approach for overcoming hand occlusion in human-to-robot large-object handover
+- Compared 3 camera types: A standard RGB camera, a Fisheye camera, and a Fisheye camera with distortion correction
+**Outcome**: Published in International Conference on Robotics and Automation, 2023.
+[Publication Link](https://ieeexplore.ieee.org/abstract/document/10610777)
 
 ---
 
-## [Reinforcement Learning for Legged Locomotion](../project/legged-rl)
-**Type**: Semester Project | **Course**: Learning-Based Control @ EPFL  
+## [ABB x AI Driven Choreography](../project/ai-choreo)
+**Type**: Semester Project | **Institution**: École polytechnique fédérale de Lausanne (EPFL), Lausanne, Switzerland 
 **Summary**: Implemented PPO to train a simulated quadruped robot using PyBullet.  
 Explored various reward structures and gait stabilizations.  
 [GitHub Repo](https://github.com/yourusername/legged-rl)
 
 ---
 
-## [Swarm Robotics Simulation in Unity](../project/aerial)
-**Type**: Semester Project | **Course**: Aerial Robotics @ EPFL  
+## [Reinforcement Learning for Legged Locomotion Simulation](../project/legged-rl)
+**Type**: Course Project | **Course**: Legged Robots ([MICRO-507](https://edu.epfl.ch/coursebook/en/legged-robots-MICRO-507)) @ EPFL  
+**Summary**: Implemented PPO to train a simulated quadruped robot using PyBullet.  
+Explored various reward structures and gait stabilizations.  
+[GitHub Repo](https://github.com/yourusername/legged-rl)
+
+---
+
+## [Simulation and Hardware Project: Crazyflie Drone](../project/aerial)
+**Type**: Course Project | **Course**: Aerial Robotics ([MICRO-502](https://edu.epfl.ch/coursebook/fr/aerial-robotics-MICRO-502)) @ EPFL  
 **Summary**: Developed a Unity-based simulation for aerial robot swarm coordination and viewpoint optimization.  
 Integrated NBV logic with flocking behavior.  
 [Demo Video](https://youtu.be/demo-link) | [GitHub Repo](https://github.com/yourusername/swarm-unity)
