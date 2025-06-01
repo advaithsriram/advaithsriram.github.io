@@ -166,12 +166,13 @@ footer:
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/advaithsriram"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/advaith-sriram"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/advaithsriram"
+
 
 
 # Reading Files
