@@ -10,9 +10,8 @@ author_profile: true
 
 **Summary**: 
 - Developed a DNN regression model using a pose-driven approach for overcoming hand occlusion in human-to-robot large-object handover
-- Compared 3 camera types: A standard RGB camera, a Fisheye camera, and a Fisheye camera with distortion correction
-- Published in International Conference on Robotics and Automation, 2023.
-[Publication Link](https://ieeexplore.ieee.org/abstract/document/10610777)
+- Compared model performance with 3 camera types: A standard RGB camera, a Fisheye camera, and a Fisheye camera with distortion correction
+- Published in International Conference on Robotics and Automation, 2024. [Publication Link](https://ieeexplore.ieee.org/abstract/document/10610777)
 
 ---
 
