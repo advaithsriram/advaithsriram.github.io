@@ -29,15 +29,21 @@ author_profile: true
 ## [Reinforcement Learning for Legged Locomotion Simulation](../project/legged-rl)
 **Type**: Course Project | **Course**: Legged Robots ([MICRO-507](https://edu.epfl.ch/coursebook/en/legged-robots-MICRO-507)) @ EPFL  
 
-**Summary**: Implemented PPO to train a simulated quadruped robot using PyBullet.  
-Explored various reward structures and gait stabilizations.  
-[GitHub Repo](https://github.com/yourusername/legged-rl)
+**Summary**: 
+- Explored the use of **Reinforcement Learning (RL)** to train a simulated quadruped robot (Unitree A1) to walk over **challenging terrains** including slopes and stairs. 
+- Using **Proximal Policy Optimization (PPO)** and a custom controller framework, the robot learned stable locomotion strategies across uneven surfaces without relying on a reference gait. 
+- Explored the effects of different action spaces, observation spaces, and reward functions on various terrains.
+
+<!-- [GitHub Repo](https://github.com/yourusername/legged-rl) -->
 
 ---
 
 ## [Simulation and Hardware Project: Crazyflie Drone](../project/aerial)
 **Type**: Course Project | **Course**: Aerial Robotics ([MICRO-502](https://edu.epfl.ch/coursebook/fr/aerial-robotics-MICRO-502)) @ EPFL  
 
-**Summary**: Developed a Unity-based simulation for aerial robot swarm coordination and viewpoint optimization.  
-Integrated NBV logic with flocking behavior.  
-[Demo Video](https://youtu.be/demo-link) | [GitHub Repo](https://github.com/yourusername/swarm-unity)
+**Summary**:
+- Developed a navigation pipeline for the **Bitcraze Crazyflie 2.1** nano drone to autonomously fly through a sequence of gates. 
+- **Simulation**: The drone detects gates using computer vision, computes their position through triangulation, and navigates a course. 
+- **Hardware**: On the real hardware, physical gate positions and dimensions were predefined, and a robust trajectory controller was developed to autonomously navigate through the gates
+
+<!-- [Demo Video](https://youtu.be/demo-link) | [GitHub Repo](https://github.com/yourusername/swarm-unity) -->
