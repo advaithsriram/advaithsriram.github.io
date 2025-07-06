@@ -21,7 +21,7 @@ An interactive installation using the **ABB GoFa CRB 15000** robot arm, combinin
 
 <div style="text-align: center;">
   <video controls width="80%">
-    <source src="/assets/videos/robot_dance.mp4" type="video/mp4">
+    <source src="/assets/videos/abb_robotdance.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <p><em>Robot performing music-driven choreography</em></p>
@@ -68,11 +68,11 @@ We trained a **Variational Autoencoder (VAE)** to convert audio features (MFCCs)
 
 ---
 
-## ✋ Interactive Hand Tracking Trial (Video)
+## Interactive Hand Tracking Trial (Video)
 
 <div style="text-align: center;">
   <video controls width="80%">
-    <source src="/assets/videos/hand_tracking.mp4" type="video/mp4">
+    <source src="/assets/videos/abb_handtracking.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <p><em>Hand-tracking demo using MediaPipe</em></p>
