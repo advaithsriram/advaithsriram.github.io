@@ -97,12 +97,11 @@ We trained a **Variational Autoencoder (VAE)** to convert audio features (MFCCs)
 - **C++** for ROS 2-based trajectory publishing and interfacing with MoveIt
 - **ROS 2 Humble** for robot control, messaging, and system integration
 - **ABB RobotStudio Suite** for defining safety zones and simulating robot motion
-- **MediaPipe** for real-time hand tracking and gesture recognition
 - **PyTorch** for building and training the Variational Autoencoder (VAE)
 - **Librosa** for extracting MFCC audio features
-- **RViz + MoveIt 2** for robot visualization and trajectory planning
-- **OpenCV** for basic image and video processing
-- **Gazebo** for early simulation and trajectory validation
+- **RViz, MoveIt 2 and Gazebo** for robot visualization, trajectory planning and simulation
+- **MediaPipe** for real-time hand tracking and gesture recognition
+
 
 <!-- ---
 ## Full Report
