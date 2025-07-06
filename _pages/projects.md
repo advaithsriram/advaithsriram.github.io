@@ -5,6 +5,17 @@ permalink: /projects/
 author_profile: true
 ---
 
+
+## [ABB x AI Driven Choreography](../project/ai-choreo)
+**Type**: Semester Project | **Institution**: EPFL, Lausanne, Switzerland 
+
+**Summary**: 
+- Implemented an interactive exhibit using a **ABB GoFa CRB 15000** robot arm, combining **AI-driven choreography** with artistic expression. 
+- The system maps music to expressive robot motion using a custom-trained Variational Autoencoder (VAE), and incorporates **real-time hand tracking** for interaction. 
+- Exhibited at the **Swiss Design Awards 2025**.
+
+---
+
 ## [Bachelor Thesis: Human-to-Robot Handover of Large Objects using Pose Estimation to Overcome Hand Occlusion](../project/robot-handover)
 **Type**: Bachelor Thesis | **Institution**: Waseda University, Tokyo, Japan
 
@@ -12,15 +23,6 @@ author_profile: true
 - Developed a DNN regression model using a pose-driven approach for overcoming hand occlusion in human-to-robot large-object handover
 - Compared model performance with 3 camera types: A standard RGB camera, a Fisheye camera, and a Fisheye camera with distortion correction
 - Published in International Conference on Robotics and Automation, 2024. [Publication Link](https://ieeexplore.ieee.org/abstract/document/10610777)
-
----
-
-## [ABB x AI Driven Choreography](../project/ai-choreo)
-**Type**: Semester Project | **Institution**: École polytechnique fédérale de Lausanne (EPFL), Lausanne, Switzerland 
-
-**Summary**: Implemented PPO to train a simulated quadruped robot using PyBullet.  
-Explored various reward structures and gait stabilizations.  
-[GitHub Repo](https://github.com/yourusername/legged-rl)
 
 ---
 
