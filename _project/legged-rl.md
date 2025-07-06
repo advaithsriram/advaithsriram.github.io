@@ -85,9 +85,9 @@ These randomized conditions ensured the policy could adapt to unseen variations 
 
 ### Key Learnings
 
-- Reward shaping was critical — small changes drastically impacted stability
+- Reward shaping was critical as small changes drastically impacted stability
 - Including **CPG phase and amplitude** in the observation space significantly improved terrain adaptation
-- Training time increased with more complex terrain, but generalization improved
+- Training time increased with more complex terrain, but locomotion generalization also improved
 - Cartesian-space control helped improve foothold precision on slopes
 
 ---
