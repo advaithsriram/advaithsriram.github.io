@@ -141,6 +141,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/advaithsriram"
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar"  # uses Academicons
+      url: "https://scholar.google.com/citations?user=6QMdFQgAAAAJ&hl=en"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   # url: "https://instagram.com/"
