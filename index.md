@@ -1,8 +1,3 @@
-<!-- ---
-layout: home
-author_profile: true
---- -->
-
 ---
 layout: splash
 title: "Hi, I'm Advaith Sriram"
