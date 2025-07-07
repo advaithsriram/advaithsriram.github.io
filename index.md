@@ -53,6 +53,7 @@ My bachelor’s thesis was recently published as a paper at **ICRA 2024**: *Over
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top;
   display: block;
 }
 
