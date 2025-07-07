@@ -32,25 +32,27 @@ My bachelor’s thesis was recently published as a paper at **ICRA 2024**: *Over
 
 <div class="grid__item" style="text-align: center;">
   <a href="/project/ai-choreo/">
-    <img src="/assets/images/ai_choreo_thumb.jpg" class="hover-img" data-hover="/assets/gifs/ai_choreo.gif" width="100%" />
+    <img src="/assets/images/aixabb_thumbnail.jpg" class="hover-img" data-hover="/assets/images/aixabb_thumbnail.jpg" width="100%" /> <!-- change to gifs later on hover -->
     <h3>ABB x AI Driven Choreography</h3>
     <p>Mapping music to robot motion using a Variational Autoencoder (VAE)</p>
   </a>
 </div>
 
+
+
 <div class="grid__item" style="text-align: center;">
   <a href="/project/legged-rl/">
-    <img src="/assets/images/legged_rl_thumb.jpg" class="hover-img" data-hover="/assets/gifs/legged_rl.gif" width="100%" />
+    <img src="/assets/images/lr_thumbnail.png" class="hover-img" data-hover="/assets/images/lr_thumbnail.png" width="100%" /> <!-- change to gifs later on hover -->
     <h3>Reinforcement Learning for Legged Locomotion</h3>
-    <p>Quadruped learns to walk on stairs and slopes with PPO</p>
+    <p>Simulated quadruped learns to walk on stairs and slopes with PPO</p>
   </a>
 </div>
 
 <div class="grid__item" style="text-align: center;">
-  <a href="/project/aerial/">
-    <img src="/assets/images/aerial_thumb.jpg" class="hover-img" data-hover="/assets/gifs/aerial_hover.gif" width="100%" />
-    <h3>Aerial Robotics: Gate Navigation</h3>
-    <p>Crazyflie drone navigates gates in simulation and real flight</p>
+  <a href="/project/robot-handover/">
+    <img src="/assets/images/bachelorthesis_thumbnail.jpg" class="hover-img" data-hover="/assets/images/bachelorthesis_thumbnail.jpg" width="100%" /> <!-- change to gifs later on hover -->
+    <h3>Bachelor Thesis: Human-to-Robot Handover of Large Objects</h3>
+    <p>Allowing safe and effective human-to-robot handovers of large objects</p>
   </a>
 </div>
 
