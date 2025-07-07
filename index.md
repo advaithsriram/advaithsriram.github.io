@@ -24,3 +24,43 @@ Welcome to my portfolio site!
 
 My bachelor’s thesis was recently published as a paper at **ICRA 2024**: *Overcoming Hand and Arm Occlusion in Human-to-Robot Handovers*. [![ICRA 2024 Publication](https://img.shields.io/badge/Published%20at-ICRA%202024-blue)](https://ieeexplore.ieee.org/abstract/document/10610777)
 
+---
+
+## 🚀 Featured Projects
+
+<div class="grid__wrapper">
+
+<div class="grid__item" style="text-align: center;">
+  <a href="/project/ai-choreo/">
+    <img src="/assets/images/ai_choreo_thumb.jpg" class="hover-img" data-hover="/assets/gifs/ai_choreo.gif" width="100%" />
+    <h3>ABB x AI Driven Choreography</h3>
+    <p>Mapping music to robot motion using a Variational Autoencoder (VAE)</p>
+  </a>
+</div>
+
+<div class="grid__item" style="text-align: center;">
+  <a href="/project/legged-rl/">
+    <img src="/assets/images/legged_rl_thumb.jpg" class="hover-img" data-hover="/assets/gifs/legged_rl.gif" width="100%" />
+    <h3>Reinforcement Learning for Legged Locomotion</h3>
+    <p>Quadruped learns to walk on stairs and slopes with PPO</p>
+  </a>
+</div>
+
+<div class="grid__item" style="text-align: center;">
+  <a href="/project/aerial/">
+    <img src="/assets/images/aerial_thumb.jpg" class="hover-img" data-hover="/assets/gifs/aerial_hover.gif" width="100%" />
+    <h3>Aerial Robotics: Gate Navigation</h3>
+    <p>Crazyflie drone navigates gates in simulation and real flight</p>
+  </a>
+</div>
+
+</div>
+
+<style>
+.hover-img {
+  transition: 0.2s ease-in-out;
+}
+.hover-img:hover {
+  content: attr(data-hover);
+}
+</style>
