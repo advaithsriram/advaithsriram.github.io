@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Hi, I'm Advaith Sriram"
+title: "Portfolio: Advaith Sriram"
 subtitle: "Robotics Graduate Student at EPFL"
 header:
   overlay_color: "#000"
