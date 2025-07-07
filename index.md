@@ -26,43 +26,80 @@ My bachelor’s thesis was recently published as a paper at **ICRA 2024**: *Over
 
 ---
 
-## 🚀 Featured Projects
-
-<div class="grid__wrapper">
-
-<div class="grid__item" style="text-align: center;">
-  <a href="/project/ai-choreo">
-    <img src="/assets/images/aixabb_thumbnail.jpg" class="hover-img" data-hover="/assets/images/aixabb_thumbnail.jpg" width="100%" /> <!-- change to gifs later on hover -->
-    <h3>ABB x AI Driven Choreography</h3>
-  </a>
-  <p>Mapping music to robot motion using a Variational Autoencoder (VAE)</p>
-</div>
-
-
-
-<div class="grid__item" style="text-align: center;">
-  <a href="/project/legged-rl">
-    <img src="/assets/images/lr_thumbnail.png" class="hover-img" data-hover="/assets/images/lr_thumbnail.png" width="100%" /> <!-- change to gifs later on hover -->
-    <h3>Reinforcement Learning for Legged Locomotion</h3>
-  </a>
-  <p>Simulated quadruped learns to walk on stairs and slopes with PPO</p>
-</div>
-
-<div class="grid__item" style="text-align: center;">
-  <a href="/project/robot-handover">
-    <img src="/assets/images/bachelorthesis_thumbnail.jpg" class="hover-img" data-hover="/assets/images/bachelorthesis_thumbnail.jpg" width="100%" /> <!-- change to gifs later on hover -->
-    <h3>Bachelor Thesis: Human-to-Robot Handover of Large Objects</h3>
-  </a>
-  <p>Allowing safe and effective human-to-robot handovers of large objects</p>
-</div>
-
-</div>
+## Featured Projects
 
 <style>
-.hover-img {
-  transition: 0.2s ease-in-out;
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 2rem;
 }
-.hover-img:hover {
-  content: attr(data-hover);
+
+.project-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  height: 220px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+}
+
+.project-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.project-info {
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(0deg, rgba(0,0,0,0.7), transparent);
+  color: white;
+  padding: 1rem;
+  width: 100%;
+}
+
+.project-info h3 {
+  margin: 0 0 0.3rem 0;
+  font-size: 1.1rem;
+}
+
+.project-info p {
+  margin: 0;
+  font-size: 0.9rem;
 }
 </style>
+
+<div class="project-grid">
+
+  <a href="/project/ai-choreo" class="project-card">
+    <img src="/assets/images/aixabb_thumbnail.jpg" alt="ABB Choreo">
+    <div class="project-info">
+      <h3>ABB x AI Driven Choreography</h3>
+      <p>Mapping music to robot motion using a Variational Autoencoder</p>
+    </div>
+  </a>
+
+  <a href="/project/legged-rl" class="project-card">
+    <img src="/assets/images/lr_thumbnail.png" alt="Legged RL">
+    <div class="project-info">
+      <h3>Reinforcement Learning for Legged Locomotion</h3>
+      <p>Simulated quadruped learns to walk on stairs and slopes with PPO</p>
+    </div>
+  </a>
+
+  <a href="/project/robot-handover" class="project-card">
+    <img src="/assets/images/bachelorthesis_thumbnail.jpg" alt="Handover">
+    <div class="project-info">
+      <h3>Bachelor Thesis: Human-to-Robot Handover</h3>
+      <p>Pose-estimation based handover of large objects under occlusion</p>
+    </div>
+  </a>
+
+</div>
