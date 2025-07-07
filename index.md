@@ -22,3 +22,6 @@ Welcome to my portfolio site!
 <!-- - 🧠 Experienced in reinforcement learning, trajectory generation, and robot control   -->
 - 🤖 Strong background in Python, ROS, and simulation tools like PyBullet and Webots  
 - 📍 Currently working on Next Best View (NBV) planning for aerial swarms
+
+[![ICRA 2024 Publication](https://img.shields.io/badge/Published%20at-ICRA%202024-blue)](https://ieeexplore.ieee.org/abstract/document/10610777)
+
