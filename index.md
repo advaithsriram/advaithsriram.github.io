@@ -99,6 +99,7 @@ My bachelor’s thesis was recently published as a paper at **ICRA 2024**: *Over
 
   <a href="/project/ai-choreo" class="project-card">
     <img src="/assets/images/aixabb_thumbnail.jpg" alt="ABB Choreo">
+    <div class="overlay"></div>
     <div class="project-info">
       <h3>ABB x AI Driven Choreography</h3>
       <p>Mapping music to robot motion using a Variational Autoencoder</p>
@@ -107,6 +108,7 @@ My bachelor’s thesis was recently published as a paper at **ICRA 2024**: *Over
 
   <a href="/project/legged-rl" class="project-card">
     <img src="/assets/images/lr_thumbnail.png" alt="Legged RL">
+    <div class="overlay"></div>
     <div class="project-info">
       <h3>Reinforcement Learning for Legged Locomotion</h3>
       <p>Simulated quadruped learns to walk on stairs and slopes with PPO</p>
@@ -115,6 +117,7 @@ My bachelor’s thesis was recently published as a paper at **ICRA 2024**: *Over
 
   <a href="/project/robot-handover" class="project-card">
     <img src="/assets/images/bachelorthesis_thumbnail.jpg" alt="Handover">
+    <div class="overlay"></div>
     <div class="project-info">
       <h3>Bachelor Thesis: Human-to-Robot Handover</h3>
       <p>Pose-estimation based handover of large objects under occlusion</p>
