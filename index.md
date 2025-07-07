@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 title: "Hi, I'm Advaith Sriram"
 subtitle: "Robotics Graduate Student at EPFL"
 header:
@@ -16,8 +16,8 @@ excerpt: "I'm passionate about robotics and AI. I specialize in legged locomotio
 
 Welcome to my portfolio site!
 
-- 💡 Master’s student in Robotics at EPFL  
-- 🧠 Experienced in reinforcement learning, trajectory generation, and robot control  
+- 💡 Master’s student in Robotics at EPFL
+- 🌱 Always learning and exploring new technologies in robotics and AI
+<!-- - 🧠 Experienced in reinforcement learning, trajectory generation, and robot control   -->
 - 🤖 Strong background in Python, ROS, and simulation tools like PyBullet and Webots  
 - 📍 Currently working on NBV planning for aerial swarms
-- 🌱 Always learning and exploring new technologies in robotics and AI
