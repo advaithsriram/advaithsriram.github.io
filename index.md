@@ -21,4 +21,4 @@ Welcome to my portfolio site!
 - 🌱 Always learning and exploring new technologies in robotics and AI
 <!-- - 🧠 Experienced in reinforcement learning, trajectory generation, and robot control   -->
 - 🤖 Strong background in Python, ROS, and simulation tools like PyBullet and Webots  
-- 📍 Currently working on NBV planning for aerial swarms
+- 📍 Currently working on Next Best View (NBV) planning for aerial swarms
