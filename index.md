@@ -11,7 +11,8 @@ header:
       url: "/projects/"
     - label: "Download CV"
       url: "/assets/docs/Advaith_CV.pdf"
-excerpt: "I'm passionate about robotics and AI. I specialize in legged locomotion, aerial swarms, and machine learning for motion."
+excerpt: "I'm passionate about robotics and AI, and am pursuing a Master's degree (M.Sc.) in Robotics with a Data Science minor"
+
 ---
 
 Welcome to my portfolio site!
