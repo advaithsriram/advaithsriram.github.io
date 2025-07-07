@@ -57,10 +57,28 @@ My bachelor’s thesis was recently published as a paper at **ICRA 2024**: *Over
   display: block;
 }
 
-.project-info {
+.overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.25); /* 👈 controls the darkness */
+  z-index: 1;
+}
+
+/* .project-info {
   position: absolute;
   bottom: 0;
   background: linear-gradient(0deg, rgba(0,0,0,0.7), transparent);
+  color: white;
+  padding: 1rem;
+  width: 100%;
+} */
+
+.project-info {
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  background: linear-gradient(0deg, rgba(0,0,0,0.6), transparent);
   color: white;
   padding: 1rem;
   width: 100%;
