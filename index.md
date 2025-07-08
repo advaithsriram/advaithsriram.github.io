@@ -2,6 +2,8 @@
 layout: default
 title: "Advaith Sriram"
 subtitle: "Robotics Graduate Student at EPFL"
+sidebar:
+  nav: "main"
 header:
   overlay_color: "#000"
   overlay_filter: "0.3"
