@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 title: "Advaith Sriram"
 subtitle: "Robotics Graduate Student at EPFL"
 header:
