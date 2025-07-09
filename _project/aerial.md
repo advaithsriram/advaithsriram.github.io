@@ -5,6 +5,8 @@ permalink: /project/aerial
 author_profile: true
 ---
 
+{% include project-status.html status="Completed" %}
+
 ### Summary
 
 This project involved developing a navigation pipeline for the **Bitcraze Crazyflie 2.1** nano drone to autonomously fly through a sequence of gates. In simulation, the drone detects gates using computer vision, computes their position through triangulation, and navigates a course with both precision and speed. On the real hardware, physical gate positions and dimensions were predefined, so no vision-based detection was required. The main challenge was designing a robust trajectory controller to autonomously navigate through the gate sequence using the known waypoints
