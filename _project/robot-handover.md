@@ -5,6 +5,7 @@ permalink: /project/robot-handover
 author_profile: true
 ---
 
+{% include project-status.html status="Completed" %}
 
 ### Summary
 
@@ -66,8 +67,6 @@ The system consists of three core components:
   - Intrinsic object attributes (e.g., Fourier descriptors), improving model accuracy by **17.7%** compared to the pose-only baseline.
 
 ---
-
-{% include project-status.html status="Completed" %}
 
 ### Results
 

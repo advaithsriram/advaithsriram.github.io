@@ -5,6 +5,9 @@ permalink: /project/ai-choreo
 author_profile: true
 ---
 
+{% include project-status.html status="Completed" %}
+
+
 ## Overview
 
 An interactive installation using the **ABB GoFa CRB 15000** robot arm, combining **AI-driven choreography** with artistic expression. The system maps music to expressive robot motion using a custom-trained Variational Autoencoder (VAE), and incorporates **real-time hand tracking** for interaction. Exhibited at the **Swiss Design Awards 2025**.
@@ -54,8 +57,6 @@ We trained a **Variational Autoencoder (VAE)** to convert audio features (MFCCs)
   - `moveit_cpp_interface`
 
 ---
-
-{% include project-status.html status="Completed" %}
 
 ## Hand Tracking & Interaction Design
 
