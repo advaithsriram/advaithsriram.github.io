@@ -5,6 +5,8 @@ permalink: /project/legged-rl
 author_profile: true
 ---
 
+{% include project-status.html status="Completed" %}
+
 ### Summary
 
 This project explored the use of **Reinforcement Learning (RL)** to train a simulated quadruped robot (Unitree A1) to walk over **challenging terrains** including slopes and stairs. Using **Proximal Policy Optimization (PPO)** and a custom controller framework, the robot learned stable locomotion strategies across uneven surfaces without relying on a reference gait. We explored the effects of different action spaces, observation spaces, and reward functions on various terrains.

@@ -55,6 +55,8 @@ We trained a **Variational Autoencoder (VAE)** to convert audio features (MFCCs)
 
 ---
 
+{% include project-status.html status="Completed" %}
+
 ## Hand Tracking & Interaction Design
 
 - Hand tracking with MediaPipe  

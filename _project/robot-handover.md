@@ -67,6 +67,8 @@ The system consists of three core components:
 
 ---
 
+{% include project-status.html status="Completed" %}
+
 ### Results
 
 - **Quantitative Metrics**:
