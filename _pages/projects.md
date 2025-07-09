@@ -28,7 +28,8 @@ author_profile: true
 ---
 
 ## [Reinforcement Learning for Legged Locomotion Simulation](../project/legged-rl)
-**Type**: Course Project | **Course**: Legged Robots ([MICRO-507](https://edu.epfl.ch/coursebook/en/legged-robots-MICRO-507)) @ EPFL  
+<!-- **Type**: Course Project | **Course**: Legged Robots ([MICRO-507](https://edu.epfl.ch/coursebook/en/legged-robots-MICRO-507)) @ EPFL   -->
+**Type**: Course Project | **Course**: Legged Robots <a href="https://edu.epfl.ch/coursebook/en/legged-robots-MICRO-507" target="_blank" rel="noopener noreferrer">MICRO-507</a> @ EPFL
 
 **Summary**: 
 - Explored the use of **Reinforcement Learning (RL)** to train a simulated quadruped robot (Unitree A1) to walk over **challenging terrains** including slopes and stairs. 
@@ -40,7 +41,8 @@ author_profile: true
 ---
 
 ## [Simulation and Hardware Project: Crazyflie Drone](../project/aerial)
-**Type**: Course Project | **Course**: Aerial Robotics ([MICRO-502](https://edu.epfl.ch/coursebook/fr/aerial-robotics-MICRO-502)) @ EPFL  
+<!-- **Type**: Course Project | **Course**: Aerial Robotics ([MICRO-502](https://edu.epfl.ch/coursebook/fr/aerial-robotics-MICRO-502)) @ EPFL   -->
+**Type**: Course Project | **Course**: Aerial Robotics <a href="https://edu.epfl.ch/coursebook/en/aerial-robotics-MICRO-502" target="_blank" rel="noopener noreferrer">MICRO-502</a> @ EPFL 
 
 **Summary**:
 - Developed a navigation pipeline for the **Bitcraze Crazyflie 2.1** nano drone to autonomously fly through a sequence of gates. 
