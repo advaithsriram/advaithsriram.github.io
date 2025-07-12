@@ -13,7 +13,7 @@ author_profile: true
 An interactive installation using the **ABB GoFa CRB 15000** robot arm, combining **AI-driven choreography** with artistic expression. The system maps music to expressive robot motion using a custom-trained Variational Autoencoder (VAE), and incorporates **real-time hand tracking** for interaction. Exhibited at the **Swiss Design Awards 2025**.
 
 - **Exhibited**: Swiss Design Awards 2025  
-- **Team**: Advaith Sriram, Emilie Grandjean & William Galand 
+- **Team**: Advaith Sriram, Emilie Grandjean, William Galand & Léa Pereyre
 - **Lab**: REHAssist, EPFL  
 - **Robot**: ABB CRB 15000 (GoFa)  
 - **Tech Stack**: ROS 2, Python, MediaPipe, VAE, ABB RobotStudio
