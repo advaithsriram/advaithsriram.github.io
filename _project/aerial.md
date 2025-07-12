@@ -14,7 +14,7 @@ This project involved developing a navigation pipeline for the **Bitcraze Crazyf
 - **Environment**: Webots Simulation & Real Hardware (Bitcraze Crazyflie 2.1)
 - **Objective**: Navigate 2 full laps through 4 spatially placed gates  
 - **Libraries**: `crazyflie-lib-python`, OpenCV, Webots API  
-<!-- - **Team**: Advaith Sriram, Federico Rocca, Teo Halevi, Yugo Kadowaki, Nevò Mirzai -->
+- **Team**: Advaith Sriram, Federico Rocca, Teo Halevi, Yugo Kadowaki, Nevò Mirzai
 
 ---
 
