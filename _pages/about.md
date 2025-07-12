@@ -33,10 +33,10 @@ author_profile: true
 
 As part of my extracurricular involvement at Waseda University, I co-founded the **Google Developer Groups on Campus (GDGoC)** chapter at **Waseda University** in 2021, a Google-backed student tech community where I served as **President** from 2022-23.
 
-🌱 Built and led a growing, interdisciplinary community of students passionate about technology and innovation
-🛠️ Organized workshops, hackathons, and speaker sessions in collaboration with Google Japan
-🧠 Gained practical experience in leadership, communication, teamwork, and decision-making
-🤝 Fostered interdisciplinary collaboration between engineering, design, and business students
+- 🌱 Led and helped build a growing, interdisciplinary community of students passionate about technology and innovation
+- 🛠️ Organized workshops, hackathons, and speaker sessions in collaboration with Google Japan
+- 🧠 Gained practical experience in leadership, communication, teamwork, and decision-making
+- 🤝 Fostered interdisciplinary collaboration between engineering, design, and business students
 
 <!-- As a strong believer in open-source culture and peer learning, I co-founded the **Google Developer Student Clubs (GDSC)** chapter at **Waseda University** in 2021, where I served as **President** from 2022-23.
 
