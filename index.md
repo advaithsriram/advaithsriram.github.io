@@ -12,7 +12,7 @@ header:
     - label: "View My Projects"
       url: "/projects/"
     - label: "Download CV"
-      url: "/assets/docs/Advaith_CV.pdf"
+      url: "/assets/docs/advaith-cv-oct-2025.pdf"
 excerpt: "I'm passionate about robotics and AI, and am pursuing a Master's degree (M.Sc.) in Robotics with a Data Science minor"
 
 ---
