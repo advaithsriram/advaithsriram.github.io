@@ -7,7 +7,7 @@ author_profile: true
 
 {% include project-status.html status="Completed" %}
 
-### Summary
+## Summary
 
 This project involved developing a navigation pipeline for the **Bitcraze Crazyflie 2.1** nano drone to autonomously fly through a sequence of gates. In simulation, the drone detects gates using computer vision, computes their position through triangulation, and navigates a course with both precision and speed. On the real hardware, physical gate positions and dimensions were predefined, so no vision-based detection was required. The main challenge was designing a robust trajectory controller to autonomously navigate through the gate sequence using the known waypoints
 
@@ -18,7 +18,7 @@ This project involved developing a navigation pipeline for the **Bitcraze Crazyf
 
 ---
 
-### Simulation Phase
+## Simulation Phase
 
 Using **Webots**, we simulated a randomized gate course in 3D space. The droneâ€™s onboard camera captured images of the environment, and gates were detected using a **color-based segmentation + contour detection** pipeline.
 
@@ -33,7 +33,7 @@ Using **Webots**, we simulated a randomized gate course in 3D space. The droneâ€
 
 ---
 
-### Hardware Implementation
+## Hardware Implementation
 
 After successful simulation tests, the codebase was adapted to work with the **Crazyflie 2.1** drone:
 
@@ -48,19 +48,19 @@ After successful simulation tests, the codebase was adapted to work with the **C
 
 ---
 
-### Demo Video
+## Demo Video
 
-<div style="text-align: center;">
-  <video controls width="80%">
+<div class="video-wrapper">
+  <video controls>
     <source src="/assets/videos/aerial_hardware.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  <p><em>Hardware demo: Crazyflie navigating a gate sequence</em></p>
+  <p>Hardware demo: Crazyflie navigating a gate sequence</p>
 </div>
 
 ---
 
-### Tools and Libraries
+## Tools and Libraries
 
 - **crazyflie-lib-python** for controlling the drone in hardware mode  
 - **Webots** for drone simulation and simulation world setup  
@@ -69,7 +69,7 @@ After successful simulation tests, the codebase was adapted to work with the **C
 
 ---
 
-### Key Takeaways
+## Key Takeaways
 
 - **Gate detection via entry/exit vectors** significantly improved robustness compared to center-only targeting  
 - Successfully adapted simulation pipeline for real-world hardware execution  

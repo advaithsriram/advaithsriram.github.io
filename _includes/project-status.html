@@ -1,19 +1,19 @@
 {% assign status = include.status | downcase %}
 
 {% if status == "completed" %}
-  <span style="background:#4caf50; color:white; padding:4px 10px; border-radius:20px; font-size:0.8em;">
-    ✅ Completed
+  <span class="project-status completed">
+    Completed
   </span>
 {% elsif status == "in progress" %}
-  <span style="background:#ff9800; color:white; padding:4px 10px; border-radius:20px; font-size:0.8em;">
-    🚧 In Progress
+  <span class="project-status in-progress">
+    In Progress
   </span>
 {% elsif status == "upcoming" %}
-  <span style="background:#9e9e9e; color:white; padding:4px 10px; border-radius:20px; font-size:0.8em;">
-    🔜 Upcoming
+  <span class="project-status upcoming">
+    Upcoming
   </span>
 {% else %}
-  <span style="background:#e0e0e0; color:#333; padding:4px 10px; border-radius:20px; font-size:0.8em;">
-    ❓ Unknown Status
+  <span class="project-status unknown">
+    Unknown Status
   </span>
 {% endif %}

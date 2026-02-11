@@ -22,12 +22,12 @@ An interactive installation using the **ABB GoFa CRB 15000** robot arm, combinin
 
 ## Project Video
 
-<div style="text-align: center;">
-  <video controls width="80%">
+<div class="video-wrapper">
+  <video controls>
     <source src="/assets/videos/abb_robotdance.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  <p><em>Robot performing music-driven choreography</em></p>
+  <p>Robot performing music-driven choreography</p>
 </div>
 
 ---
@@ -73,12 +73,12 @@ We trained a **Variational Autoencoder (VAE)** to convert audio features (MFCCs)
 
 ## Interactive Hand Tracking Trial (Video)
 
-<div style="text-align: center;">
-  <video controls width="80%">
+<div class="video-wrapper">
+  <video controls>
     <source src="/assets/videos/abb_handtracking.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  <p><em>Hand-tracking demo using MediaPipe</em></p>
+  <p>Hand-tracking demo using MediaPipe</p>
 </div>
 
 ---
@@ -104,10 +104,4 @@ We trained a **Variational Autoencoder (VAE)** to convert audio features (MFCCs)
 - **Librosa** for extracting MFCC audio features
 - **RViz, MoveIt 2 and Gazebo** for robot visualization, trajectory planning and simulation
 - **MediaPipe** for real-time hand tracking and gesture recognition
-
-
-<!-- ---
-## Full Report
-
-You can [read the full technical report here](/assets/docs/ai_choreo_report.pdf) -->
 

@@ -12,17 +12,17 @@ header:
     - label: "View My Projects"
       url: "/projects/"
     - label: "Download CV"
-      url: "/assets/docs/advaith-cv-oct-2025.pdf"
+      url: "/assets/docs/AdvaithSriram_CV.pdf"
 excerpt: "I'm passionate about robotics and AI, and am pursuing a Master's degree (M.Sc.) in Robotics with a Data Science minor"
 
 ---
 
 Welcome to my portfolio site!
 
-- 💡 Master’s student in Robotics at EPFL
-- 🌱 Always learning and exploring new technologies in robotics and AI
-- 🤖 Strong background in Python, ROS, and simulation tools like PyBullet and Webots  
-- 📍 Currently working on Next Best View (NBV) planning for aerial swarms
+- Master’s student in Robotics at EPFL
+- Always learning and exploring new technologies in robotics and AI
+- Strong background in Python, ROS, and simulation tools like PyBullet and Webots  
+- Currently working on Next Best View (NBV) planning for aerial swarms
 
 <!-- My bachelor’s thesis was recently published as a paper at **ICRA 2024**: *Overcoming Hand and Arm Occlusion in Human-to-Robot Handovers*. [![ICRA 2024 Publication](https://img.shields.io/badge/Published%20at-ICRA%202024-blue)](https://ieeexplore.ieee.org/abstract/document/10610777){:target="_blank"} -->
 My bachelor’s thesis was recently published as a paper at **ICRA 2024**: *Overcoming Hand and Arm Occlusion in Human-to-Robot Handovers*.
@@ -33,73 +33,6 @@ My bachelor’s thesis was recently published as a paper at **ICRA 2024**: *Over
 ---
 
 ## Featured Projects
-
-<style>
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-  margin-top: 2rem;
-}
-
-.project-card {
-  position: relative;
-  overflow: hidden;
-  border-radius: 8px;
-  height: 220px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease;
-}
-
-.project-card:hover {
-  transform: scale(1.02);
-}
-
-.project-card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: top;
-  display: block;
-}
-
-.overlay {
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: rgba(0,0,0,0.25); /* 👈 controls the darkness */
-  z-index: 1;
-}
-
-/* .project-info {
-  position: absolute;
-  bottom: 0;
-  background: linear-gradient(0deg, rgba(0,0,0,0.7), transparent);
-  color: white;
-  padding: 1rem;
-  width: 100%;
-} */
-
-.project-info {
-  position: absolute;
-  bottom: 0;
-  z-index: 2;
-  background: linear-gradient(0deg, rgba(0,0,0,0.6), transparent);
-  color: white;
-  padding: 1rem;
-  width: 100%;
-}
-
-.project-info h3 {
-  margin: 0 0 0.3rem 0;
-  font-size: 1.1rem;
-}
-
-.project-info p {
-  margin: 0;
-  font-size: 0.9rem;
-}
-</style>
 
 <div class="project-grid">
 

@@ -7,7 +7,7 @@ author_profile: true
 
 {% include project-status.html status="Completed" %}
 
-### Summary
+## Summary
 
 This project explored the use of **Reinforcement Learning (RL)** to train a simulated quadruped robot (Unitree A1) to walk over **challenging terrains** including slopes and stairs. Using **Proximal Policy Optimization (PPO)** and a custom controller framework, the robot learned stable locomotion strategies across uneven surfaces without relying on a reference gait. We explored the effects of different action spaces, observation spaces, and reward functions on various terrains.
 
@@ -20,19 +20,19 @@ This project explored the use of **Reinforcement Learning (RL)** to train a simu
 
 ---
 
-### Simulation Video
+## Simulation Video
 
-<div style="text-align: center;">
-  <video controls width="80%">
+<div class="video-wrapper">
+  <video controls>
     <source src="/assets/videos/lr_stair_slope_environment.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  <p><em>Learned locomotion policy navigating stairs and slopes</em></p>
+  <p>Learned locomotion policy navigating stairs and slopes</p>
 </div>
 
 ---
 
-### Project Overview
+## Project Overview
 
 We implemented a custom simulation and control stack for a quadruped robot to learn terrain-adaptive walking behavior via PPO. The system included:
 - A tunable **PD controller** in both joint-space and Cartesian-space
@@ -46,7 +46,7 @@ Training was performed in PyBullet, using reward shaping focused on stability, f
 
 ---
 
-### Reinforcement Learning Architecture
+## Reinforcement Learning Architecture
 
 - **Policy**: The policy network was a feedforward MLP with three hidden layers of sizes 512, 256, and 128, using ELU activations
 - **Observation Space**: Base Orientation (Quaternion) and Velocity, Contact Booleans and CPG phase/amplitude
@@ -60,7 +60,7 @@ The controller learned to coordinate leg phases effectively using local sensory 
 
 ---
 
-### Evaluation and Domain Randomization
+## Evaluation and Domain Randomization
 
 To assess and improve robustness, the policy was trained and evaluated on terrains with randomized parameters:
 - **Flat Terrain**: Baseline performance assessment
@@ -73,7 +73,7 @@ To assess and improve robustness, the policy was trained and evaluated on terrai
 These randomized conditions ensured the policy could adapt to unseen variations in terrain geometry and maintain stability without explicit re-training.
 
 
-### Tools and Libraries
+## Tools and Libraries
 
 - **Python** for simulation scripting, RL integration, and analysis  
 - **PyBullet** for physics simulation and terrain modeling  
@@ -85,7 +85,7 @@ These randomized conditions ensured the policy could adapt to unseen variations 
 
 ---
 
-### Key Learnings
+## Key Learnings
 
 - Reward shaping was critical as small changes drastically impacted stability
 - Including **CPG phase and amplitude** in the observation space significantly improved terrain adaptation
@@ -94,7 +94,7 @@ These randomized conditions ensured the policy could adapt to unseen variations 
 
 ---
 
-### Future Work
+## Future Work
 
 - Extend terrain types (e.g. gaps, obstacles)
 - Transfer learned policy to real robot using domain randomization
@@ -102,8 +102,3 @@ These randomized conditions ensured the policy could adapt to unseen variations 
 - Use curriculum learning to gradually increase terrain complexity
 
 ---
-
-<!-- ### 📄 Full Report
-
-You can [read the full project report here](/assets/docs/legged_rl_report.pdf)
- -->

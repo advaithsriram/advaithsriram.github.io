@@ -7,13 +7,13 @@ author_profile: true
 
 {% include project-status.html status="Completed" %}
 
-### Summary
+## Summary
 
 This project, which started as my bachelor thesis and was later published at ICRA 2024, focuses on enabling safe and effective **human-to-robot handovers of large objects**, particularly in scenarios where the human's hands are **occluded** by the object. Traditional handover models rely heavily on visible hand detection, which breaks down for large items. This work proposes a novel approach using **pose estimation** to infer the hand's position and generate **a complementary robot pose** that avoids physical contact.
 
 ---
 
-### Motivation
+## Motivation
 
 Human-robot handovers are essential for collaborative robotics. While extensive research exists for **small-object handovers**, large objects introduce a new challenge: **occlusion of the human hand**. When hands are hidden, typical computer vision methods like MediaPipe fail, and robots risk **contact-based discomfort or safety hazards**.
 
@@ -24,11 +24,10 @@ Our goal was to develop a **vision-based, non-intrusive system** capable of:
 
 ---
 
-### System Overview
+## System Overview
 
 The system consists of three core components:
 
-<!-- 1. **Pose Estimation**: We used [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose) to extract keypoints from camera frames and compute **shoulder-elbow angles** as a proxy for hand location. -->
 1. **Pose Estimation**: We used <a href="https://github.com/MVIG-SJTU/AlphaPose" target="_blank" rel="noopener noreferrer">AlphaPose</a> to extract keypoints from camera frames and compute **shoulder-elbow angles** as a proxy for hand location.
 
 2. **Model Prediction**: A custom **Deep Neural Network (DNN)** was trained to regress the robot’s full 14-arm-joint angles based on those angles.
@@ -36,13 +35,13 @@ The system consists of three core components:
 3. **Evaluation with Multiple Cameras**: The system was tested using three camera inputs:
    - RGB camera (robot’s eyes),
    - Fisheye camera (robot’s nose),
-   <!-- - [De-Fisheye](https://github.com/duducosmos/defisheye) (distortion-corrected fisheye). -->
+
    - <a href="https://github.com/duducosmos/defisheye" target="_blank" rel="noopener noreferrer">De-Fisheye</a> (distortion-corrected fisheye).
 
 
 ---
 
-### Methodology
+## Methodology
 
 - **Robot**: Tokyo Robotics’ Dry-AIREC — a dual-arm humanoid robot with 7 DOFs per arm.
 - **Camera Setup**: Internal RGB and fisheye cameras mounted on the robot's face; no external sensors.
@@ -56,7 +55,7 @@ The system consists of three core components:
 
 ---
 
-### Key Contributions
+## Key Contributions
 
 - **Occlusion-Robust Inference**: Instead of *requiring hand visibility*, the system *inferred hand positions* from upper body pose angles, improving reliability in occluded scenarios.
 
@@ -68,7 +67,7 @@ The system consists of three core components:
 
 ---
 
-### Results
+## Results
 
 - **Quantitative Metrics**:
   - Mean Absolute Error (MAE) of predicted joint angles improved significantly with the multimodal model: from ~11.2° (pose-only) to **9.19°**.
@@ -79,12 +78,11 @@ The system consists of three core components:
   - The predicted robot pose closely mirrored expected positions even under occlusion.
 
 - **Publication**:  
-  📄 *Overcoming Hand and Arm Occlusion in Human-to-Robot Handovers: Predicting Safe Poses with a Multimodal DNN Regression Model*, <a href="https://ieeexplore.ieee.org/document/10610777" target="_blank" rel="noopener noreferrer">ICRA 2024</a>
-  <!-- [ICRA 2024](https://ieeexplore.ieee.org/document/10610777) -->
+  *Overcoming Hand and Arm Occlusion in Human-to-Robot Handovers: Predicting Safe Poses with a Multimodal DNN Regression Model*, <a href="https://ieeexplore.ieee.org/document/10610777" target="_blank" rel="noopener noreferrer">ICRA 2024</a>
 
 ---
 
-### Tools and Libraries
+## Tools and Libraries
 
 - **AlphaPose** for keypoint detection
 - **PyTorch** for DNN regression model
@@ -94,7 +92,7 @@ The system consists of three core components:
 
 ---
 
-### Reflection and Future Work
+## Reflection and Future Work
 
 This work highlighted the importance of robust pose estimation in physical human-robot interaction. Potential future directions include:
 - Integrating temporal modeling (e.g. LSTM) for dynamic handovers,
