@@ -23,7 +23,7 @@ This project explored the use of **Reinforcement Learning (RL)** to train a simu
 ## Simulation Video
 
 <div class="video-wrapper">
-  <video controls>
+  <video controls muted>
     <source src="/assets/videos/lr_stair_slope_environment.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>

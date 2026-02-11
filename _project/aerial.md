@@ -51,7 +51,7 @@ After successful simulation tests, the codebase was adapted to work with the **C
 ## Demo Video
 
 <div class="video-wrapper">
-  <video controls>
+  <video controls muted>
     <source src="/assets/videos/aerial_hardware.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
