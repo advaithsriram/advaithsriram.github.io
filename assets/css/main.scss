@@ -297,12 +297,12 @@ search: false
   }
   
   .timeline-content h3 {
-    font-size: 1rem;
+    font-size: clamp(0.95rem, 3vw, 1.05rem);
     word-wrap: break-word;
   }
-  
+
   .timeline-content p {
-    word-wrap: break-word;
+    font-size: clamp(0.85rem, 2.5vw, 0.95rem);
     overflow-wrap: break-word;
   }
   
@@ -345,11 +345,15 @@ search: false
   }
   
   .timeline-content h3 {
-    font-size: 0.95rem;
+    font-size: clamp(0.9rem, 4vw, 1rem);
+  }
+
+  .timeline-date {
+    font-size: clamp(0.7rem, 3vw, 0.8rem);
   }
   
-  .timeline-date {
-    font-size: 0.75rem;
+  .timeline-details li {
+    font-size: clamp(0.85rem, 3vw, 0.9rem);
   }
 }
 
@@ -384,7 +388,7 @@ html {
    ========================================================================== */
 .timeline {
   position: relative;
-  max-width: 800px;
+  max-width: 1100px;
   margin: 2rem auto;
   padding: 0 20px;
 }
@@ -441,7 +445,7 @@ html {
 
 .timeline-content {
   position: relative;
-  width: calc(50% - 40px);
+  width: calc(55% - 30px);
   padding: 1.5rem;
   background: white;
   border-radius: 8px;
@@ -566,7 +570,16 @@ html {
 .timeline-content h3 {
   margin: 0 0 0.5rem 0;
   color: #333;
-  font-size: 1.2rem;
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
+}
+
+.timeline-content p {
+  font-size: clamp(0.9rem, 1.5vw, 1rem);
+  line-height: 1.6;
+}
+
+.timeline-content strong {
+  font-size: clamp(0.9rem, 1.5vw, 1rem);
 }
 
 .timeline-date {
@@ -575,7 +588,7 @@ html {
   background: #e3f2fd;
   color: #007bff;
   border-radius: 12px;
-  font-size: 0.85rem;
+  font-size: clamp(0.8rem, 1.5vw, 0.9rem);
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
@@ -598,6 +611,7 @@ html {
 
 .timeline-details li {
   margin-bottom: 0.4rem;
+  font-size: clamp(0.9rem, 1.5vw, 1rem);
   line-height: 1.6;
 }
 
