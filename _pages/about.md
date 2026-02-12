@@ -10,7 +10,7 @@ author_profile: true
 
 <div class="timeline">
   
-  <div class="timeline-item">
+  <div class="timeline-item" data-type="education">
     <div class="timeline-marker"></div>
     <div class="timeline-content">
       <span class="timeline-date">Sept 2024 – present</span>
@@ -23,7 +23,7 @@ author_profile: true
     </div>
   </div>
 
-  <div class="timeline-item">
+  <div class="timeline-item" data-type="work">
     <div class="timeline-marker"></div>
     <div class="timeline-content">
       <span class="timeline-date">Oct 2023 – Sept 2024</span>
@@ -40,7 +40,7 @@ author_profile: true
     </div>
   </div>
 
-  <div class="timeline-item">
+  <div class="timeline-item" data-type="education">
     <div class="timeline-marker"></div>
     <div class="timeline-content">
       <span class="timeline-date">Sept 2019 – Sept 2023</span>
@@ -54,7 +54,7 @@ author_profile: true
     </div>
   </div>
 
-  <div class="timeline-item">
+  <div class="timeline-item timeline-overlap" data-type="leadership">
     <div class="timeline-marker"></div>
     <div class="timeline-content">
       <span class="timeline-date">Sept 2022 – Aug 2023</span>
@@ -73,7 +73,22 @@ author_profile: true
 
 </div>
 
-<p style="text-align: center; color: #666; font-size: 0.9em; margin-top: -1rem;"><em>Click on any timeline item to expand details</em></p>
+<p style="text-align: center; color: #666; font-size: 0.9em; margin-top: -1rem;"><em>Click on any timeline item to expand details. Overlapping periods are shown closer together.</em></p>
+
+<div style="display: flex; justify-content: center; gap: 20px; margin-top: 1rem; flex-wrap: wrap;">
+  <div style="display: flex; align-items: center; gap: 8px;">
+    <span style="width: 12px; height: 12px; border-radius: 50%; background: #007bff; display: inline-block;"></span>
+    <span style="font-size: 0.85rem; color: #666;">Education</span>
+  </div>
+  <div style="display: flex; align-items: center; gap: 8px;">
+    <span style="width: 12px; height: 12px; border-radius: 50%; background: #28a745; display: inline-block;"></span>
+    <span style="font-size: 0.85rem; color: #666;">Work Experience</span>
+  </div>
+  <div style="display: flex; align-items: center; gap: 8px;">
+    <span style="width: 12px; height: 12px; border-radius: 50%; background: #9c27b0; display: inline-block;"></span>
+    <span style="font-size: 0.85rem; color: #666;">Leadership</span>
+  </div>
+</div>
 
 ---
 

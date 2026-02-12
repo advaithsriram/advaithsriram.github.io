@@ -1,6 +1,51 @@
 // Custom Interactive Features
 // ========================================================================
 
+// Dark Mode Toggle
+// ========================================================================
+function initDarkMode() {
+
+  // Create toggle button
+  const toggle = document.createElement('button');
+  toggle.className = 'dark-mode-toggle';
+  toggle.setAttribute('aria-label', 'Toggle dark mode');
+  
+  const slider = document.createElement('div');
+  slider.className = 'dark-mode-toggle-slider';
+  
+  toggle.appendChild(slider);
+  document.body.appendChild(toggle);
+
+  // Check for saved preference or system preference
+  const savedTheme = localStorage.getItem('theme');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  
+  // Remove loading class and apply proper dark mode class
+  document.documentElement.classList.remove('dark-mode-loading');
+  
+  if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+    document.body.classList.add('dark-mode');
+  }
+
+  // Toggle functionality
+  toggle.addEventListener('click', function() {
+    document.body.classList.toggle('dark-mode');
+    const isDark = document.body.classList.contains('dark-mode');
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+  });
+
+  // Listen for system theme changes
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+    if (!localStorage.getItem('theme')) {
+      if (e.matches) {
+        document.body.classList.add('dark-mode');
+      } else {
+        document.body.classList.remove('dark-mode');
+      }
+    }
+  });
+}
+
 // Project Filtering
 // ========================================================================
 function initProjectFilters() {
@@ -134,6 +179,7 @@ if (document.readyState === 'loading') {
 }
 
 function initAllFeatures() {
+  initDarkMode();
   initProjectFilters();
   initTimeline();
   initBackToTop();

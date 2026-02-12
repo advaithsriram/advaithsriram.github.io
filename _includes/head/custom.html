@@ -1,5 +1,24 @@
 <!-- start custom head snippets -->
 
+<!-- Prevent white flash on page load (apply dark mode immediately) -->
+<script>
+  (function() {
+    const savedTheme = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+      document.documentElement.classList.add('dark-mode-loading');
+    }
+  })();
+</script>
+<style>
+  .dark-mode-loading {
+    background-color: #1a202c !important;
+  }
+  .dark-mode-loading body {
+    background-color: #1a202c !important;
+  }
+</style>
+
 <!-- Favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/favicon-96x96.png">

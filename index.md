@@ -23,14 +23,30 @@ Welcome to my portfolio site!
 - Always learning and exploring new technologies in robotics and AI
 - Strong background in Python, ROS, and simulation tools like PyBullet and Webots  
 - Currently working on Next Best View (NBV) planning for aerial swarms
+<div class="homepage-badges">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white" alt="ROS2" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
+</div>
 
+<div class="cv-download-section">
+  <a href="/assets/docs/AdvaithSriram_CV.pdf" class="cv-download-btn" download>
+    <span class="cv-icon">📄</span>
+    <span class="cv-text">
+      <strong>Download CV</strong>
+      <small>Updated February 2026</small>
+    </span>
+  </a>
+</div>
 <!-- My bachelor’s thesis was recently published as a paper at **ICRA 2024**: *Overcoming Hand and Arm Occlusion in Human-to-Robot Handovers*. [![ICRA 2024 Publication](https://img.shields.io/badge/Published%20at-ICRA%202024-blue)](https://ieeexplore.ieee.org/abstract/document/10610777){:target="_blank"} -->
 My bachelor’s thesis was recently published as a paper at **ICRA 2024**: *Overcoming Hand and Arm Occlusion in Human-to-Robot Handovers*.
 <a href="https://ieeexplore.ieee.org/document/10610777" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/Published%20at-ICRA%202024-blue" alt="ICRA 2024 Publication Badge" />
 </a>
 
----
+
 
 ## Featured Projects
 
@@ -41,7 +57,7 @@ My bachelor’s thesis was recently published as a paper at **ICRA 2024**: *Over
     <div class="overlay"></div>
     <div class="project-info">
       <h3>Next-Best-View for Multi-Viewpoint Monitoring</h3>
-      <p>Comparing autonomous viewpoint planning and swarming for multi-drone scene observation</p>
+      <p>Comparing autonomous viewpoint planning and swarming algorithms</p>
     </div>
   </a>
 
