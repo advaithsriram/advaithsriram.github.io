@@ -7,87 +7,42 @@ author_profile: true
 
 {% include project-status.html status="Completed" %}
 
-## *UNDER CONSTRUCTION*
-<!-- ## Summary
 
-[Add a brief overview of the project here. Describe the main objective, approach, and significance of the work.]
 
-- **Objective**: [Main goal - e.g., Classify YouTube video titles as clickbait or non-clickbait]
-- **Dataset**: [Dataset used for training/testing]
-- **Key Technologies**: [List main technologies, algorithms, or frameworks used - e.g., NLP, Machine Learning models]
-- **Team**: [Team members or solo project]
+## Summary
 
----
+This project analyzes clickbait patterns in YouTube video titles using data analysis techniques. The full interactive data story with visualizations is available at our [project website](https://epfl-ada.github.io/ada-2025-project-datahunt3rs/){:target="_blank" rel="noopener noreferrer"}. The code is publically available [here](https://github.com/epfl-ada/ada-2025-project-datahunt3rs){:target="_blank" rel="noopener noreferrer"}.
 
-## Motivation
+- **Team**: Advaith Sriram, Harkeerat Singh Sawhney, Nevò Mirzai Hamadani, Sajal Chaurasia, and Dalia Somekh
+- **Dataset**: YouNiverse dataset containing metadata for over 72 million videos
 
-[Explain why clickbait detection is important, the impact of clickbait on user experience, and what problem this project solves.]
 
----
+## Project Overview:
 
-## Approach
+In this project we addressed the following research questions:
+- How can we identify and classify clickbait video titles within the YouNiverse dataset?
+- What are the distribution and trends of clickbait usage across channels and over time? Do videos with clickbait titles receive higher engagement than non-clickbait videos?
+- Does the effectiveness of clickbait differ across categories such as Entertainment, Education, Gaming, and News?
+- Does channel size influence the impact of clickbait? For instance, do smaller creators benefit more from clickbait tactics than large, established channels?
+- If you have a channel, what strategy should you employ (depending on your subscriber count and category)? How much clickbait should you use?
 
-[Describe your methodology, data processing pipeline, and model architecture.]
 
-### Data Collection and Preprocessing
+## Methods:
 
-[Describe how data was collected, cleaned, and preprocessed. Include details about text normalization, tokenization, etc.]
+- To identify and classifier clickbait video titles we used a hybrid dataset containing an external dataset with 32,000 labeled titles and domain-specific category data which we annotated using a local LLM. We then developed a classification model to distinguish between clickbait and non-clickbait YouTube titles.
 
-### Model Architecture
+- To determine the overall impact of clickbait over time, we analyzed the distribution and trends in the usage of clickbait to identify how different channels used clickbait and to what extent. We performed normality tests on the engagement metrics and visualized the impact of clickbait using box plots to compare distributions between clickbait and non-clickbait videos.
 
-[Describe the machine learning or deep learning model(s) used - e.g., Transformer-based models, LSTM, BERT, etc.]
+- Next, we tested the effect of clickbait vs non-clickbait titles by category on various engagement metrics to determine whether clickbait yielded higher engagement. Engagement metrics include views, likes, dislikes, likes-to-views ratio, etc. We performed statistical hypothesis testing to determine whether the null hypothesis (of clickbait having no impact on any engagement metric) can be rejected. We then modeled the engagement as a function of clickbait, controlling for various factors such as the channel subscriber count, duration of the video and age of the video.
 
-### Training and Evaluation
+- We then tested whether the effectiveness of clickbait changes with channel size by merging the time series dataset with the video metadata dataset. All channels, irrespective of category, were binned into subscriber count categories: Very Small (<10K), Small (10K - 100K), Medium (100K - 500K), Large (500K - 2M), and Very Large (≥2M). We examined the audience backlash of using clickbait (through the dislike dynamics) and modeled the engagement as a function of clickbait and channel sizes. This reveals how the relative gain from clickbait evolves as channels grow.
 
-[Describe training process, hyperparameters, validation strategy, and evaluation metrics used.]
-
----
-
-## Results
-
-[Present your results - accuracy, precision, recall, F1-score, confusion matrix, etc.]
-
-- **Performance Metrics**: [Key metrics and their values]
-- **Model Comparison**: [If multiple models were tested]
-- **Key Findings**: [Main discoveries or insights about clickbait patterns]
-
----
-
-## Example Predictions
-
-[Optional: Show some example predictions with clickbait vs. non-clickbait titles]
-
-**Clickbait Examples:**
-- [Example title 1] → Predicted: Clickbait ✓
-- [Example title 2] → Predicted: Clickbait ✓
-
-**Non-Clickbait Examples:**
-- [Example title 1] → Predicted: Not Clickbait ✓
-- [Example title 2] → Predicted: Not Clickbait ✓
-
----
+- Finally, we examined the usage of clickbait by all channels and evaluated how their subscriber count has changed. Using the subscriber growth rate of the channel, their current size, and the category they belong to, we performed quadratic regression on clickbait ratio to determine the "Sweet Spot" for maximum channel growth. This identifies what percentage use of clickbait in video titles yields the strongest long-term performance. We can then use these results as a personalized strategy: For a specific category of videos (e.g., Gaming) and subscriber count (e.g., 50k-200k subscribers), what is the ideal amount of clickbait to use to maximize channel growth?
 
 ## Tools and Libraries
 
-- **[Tool/Library 1]** for [purpose - e.g., Python for implementation]
-- **[Tool/Library 2]** for [purpose - e.g., TensorFlow/PyTorch for model building]
-- **[Tool/Library 3]** for [purpose - e.g., NLTK/SpaCy for text processing]
-- **[Tool/Library 4]** for [purpose - e.g., Scikit-learn for evaluation]
+- **Data Manipulation**: `Pandas` and `NumPy` for data processing 
+- **Visualization**: `Matplotlib` and `Seaborn` for interactive trend analysis.
+- **Statistical Analysis**: `Scipy`, `Scikit-learn` and `Statsmodels` for correlation testing, significance validation and regression analysis
 
 ---
-
-## Key Takeaways
-
-- [Key learning or achievement 1]
-- [Key learning or achievement 2]
-- [Key learning or achievement 3]
-
----
-
-## Future Work
-
-- [Potential extension 1 - e.g., Extend to other platforms like TikTok or Instagram]
-- [Potential extension 2 - e.g., Real-time clickbait detection browser extension]
-- [Potential extension 3 - e.g., Multi-language support]
-
---- -->
