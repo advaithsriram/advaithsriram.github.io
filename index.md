@@ -8,11 +8,11 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.3"
   overlay_image: /assets/images/header.jpg  # optional background image
-  actions:
-    - label: "View My Projects"
-      url: "/projects/"
-    - label: "Download CV"
-      url: "/assets/docs/AdvaithSriram_CV.pdf"
+  # actions:
+  #   - label: "View My Projects"
+  #     url: "/projects/"
+  #   - label: "Download CV"
+  #     url: "/assets/docs/AdvaithSriram_CV.pdf"
 excerpt: "I'm passionate about robotics and AI, and am pursuing a Master's degree (M.Sc.) in Robotics with a Data Science minor"
 
 ---
