@@ -18,7 +18,7 @@ An interactive installation using the **ABB GoFa CRB 15000** robot arm, combinin
 - **Robot**: ABB CRB 15000 (GoFa)  
 - **Tech Stack**: ROS 2, Python, MediaPipe, VAE, ABB RobotStudio
 
----
+
 
 ## Project Video
 
@@ -30,7 +30,7 @@ An interactive installation using the **ABB GoFa CRB 15000** robot arm, combinin
   <p>Robot performing music-driven choreography</p>
 </div>
 
----
+
 
 ## AI Model: Audio to Motion
 
@@ -44,7 +44,7 @@ We trained a **Variational Autoencoder (VAE)** to convert audio features (MFCCs)
 ![](/assets/images/vae_architecture.png)  
 *VAE Architecture: MFCC → Latent Space → Joint Angles*
 
----
+
 
 ## Robot Integration
 
@@ -56,7 +56,7 @@ We trained a **Variational Autoencoder (VAE)** to convert audio features (MFCCs)
   - `hand_tracking`
   - `moveit_cpp_interface`
 
----
+
 
 ## Hand Tracking & Interaction Design
 
@@ -69,7 +69,7 @@ We trained a **Variational Autoencoder (VAE)** to convert audio features (MFCCs)
 ![](/assets/images/hand_pose.png)  
 *Hand Tracking based on Horizontal and Vertical Displacement Angles*
 
----
+
 
 ## Interactive Hand Tracking Trial (Video)
 
@@ -81,7 +81,7 @@ We trained a **Variational Autoencoder (VAE)** to convert audio features (MFCCs)
   <p>Hand-tracking demo using MediaPipe</p>
 </div>
 
----
+
 
 ## Exhibition at Swiss Design Awards 2025
 
@@ -93,7 +93,7 @@ We trained a **Variational Autoencoder (VAE)** to convert audio features (MFCCs)
 ![](/assets/images/exhibition_view.jpeg)  
 *Final exhibition setup in Basel*
 
----
+
 
 ## Tools and Libraries
 - **Python** for audio processing, VAE model training, and MediaPipe-based hand tracking
@@ -105,3 +105,4 @@ We trained a **Variational Autoencoder (VAE)** to convert audio features (MFCCs)
 - **RViz, MoveIt 2 and Gazebo** for robot visualization, trajectory planning and simulation
 - **MediaPipe** for real-time hand tracking and gesture recognition
 
+---

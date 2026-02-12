@@ -18,7 +18,6 @@ This project explored the use of **Reinforcement Learning (RL)** to train a simu
 - **Terrains**: Slopes, stairs, and gaps
 - **Team**: Advaith Sriram, Chiara Evangelisti and Camille Coppieters
 
----
 
 ## Simulation Video
 
@@ -30,7 +29,7 @@ This project explored the use of **Reinforcement Learning (RL)** to train a simu
   <p>Learned locomotion policy navigating stairs and slopes</p>
 </div>
 
----
+
 
 ## Project Overview
 
@@ -44,7 +43,7 @@ We implemented a custom simulation and control stack for a quadruped robot to le
 
 Training was performed in PyBullet, using reward shaping focused on stability, forward velocity, and foot contact accuracy.
 
----
+
 
 ## Reinforcement Learning Architecture
 
@@ -58,7 +57,7 @@ Training was performed in PyBullet, using reward shaping focused on stability, f
 
 The controller learned to coordinate leg phases effectively using local sensory feedback, without explicit trajectory references.
 
----
+
 
 ## Evaluation and Domain Randomization
 
@@ -83,7 +82,7 @@ These randomized conditions ensured the policy could adapt to unseen variations 
 - **NumPy, SciPy** for math utilities and processing  
 - **Matplotlib & Seaborn** for visualizing reward curves, gait plots  
 
----
+
 
 ## Key Learnings
 
@@ -92,7 +91,7 @@ These randomized conditions ensured the policy could adapt to unseen variations 
 - Training time increased with more complex terrain, but locomotion generalization also improved
 - Cartesian-space control helped improve foothold precision on slopes
 
----
+
 
 ## Future Work
 

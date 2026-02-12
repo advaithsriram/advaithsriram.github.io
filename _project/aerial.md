@@ -16,7 +16,7 @@ This project involved developing a navigation pipeline for the **Bitcraze Crazyf
 - **Libraries**: `crazyflie-lib-python`, OpenCV, Webots API  
 - **Team**: Advaith Sriram, Federico Rocca, Teo Halevi, Yugo Kadowaki, Nev√≤ Mirzai
 
----
+
 
 ## Simulation Phase
 
@@ -31,7 +31,7 @@ Using **Webots**, we simulated a randomized gate course in 3D space. The drone‚Ä
 *Gate setup for simulation project*
 
 
----
+
 
 ## Hardware Implementation
 
@@ -46,7 +46,7 @@ After successful simulation tests, the codebase was adapted to work with the **C
 *Gate setup and strategy for hardware testing*
 
 
----
+
 
 ## Demo Video
 
@@ -58,7 +58,7 @@ After successful simulation tests, the codebase was adapted to work with the **C
   <p>Hardware demo: Crazyflie navigating a gate sequence</p>
 </div>
 
----
+
 
 ## Tools and Libraries
 
@@ -67,7 +67,7 @@ After successful simulation tests, the codebase was adapted to work with the **C
 - **OpenCV** for gate detection using color segmentation and contour filtering  
 - **Python** for all integration, logic, and visual processing scripts
 
----
+
 
 ## Key Takeaways
 

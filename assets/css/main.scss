@@ -1058,4 +1058,71 @@ body.dark-mode .cv-download-btn:hover {
   }
 }
 
+/* Breadcrumb Navigation
+   ========================================================================== */
+.breadcrumbs {
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem;
+}
+
+.breadcrumbs li {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbs li:not(:last-child)::after {
+  content: "›";
+  margin-left: 0.5rem;
+  color: #999;
+  font-size: 1.2rem;
+}
+
+.breadcrumbs a {
+  color: #3182ce;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.breadcrumbs a:hover {
+  color: #2c5282;
+  text-decoration: underline;
+}
+
+.breadcrumbs .current {
+  color: #666;
+  font-weight: 500;
+}
+
+body.dark-mode .breadcrumbs a {
+  color: #63b3ed;
+}
+
+body.dark-mode .breadcrumbs a:hover {
+  color: #4299e1;
+}
+
+body.dark-mode .breadcrumbs .current {
+  color: #a0aec0;
+}
+
+body.dark-mode .breadcrumbs li:not(:last-child)::after {
+  color: #718096;
+}
+
+@media (max-width: 768px) {
+  .breadcrumbs {
+    font-size: 0.85rem;
+  }
+}
 

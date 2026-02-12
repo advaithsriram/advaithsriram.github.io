@@ -19,7 +19,7 @@ Potential-field-based swarming algorithms are also a powerful method to coordina
 - **Tech Stack**: C#, Unity-3D, Python
 
 
----
+
 
 
 ## Motivation
@@ -34,7 +34,7 @@ This project addresses that gap by implementing a Next-Best-View strategy and co
 
 > How well does a potential field swarming algorithm performs on next-best-view tasks?
 
----
+
 
 ## Approach
 
@@ -65,7 +65,7 @@ In contrast to NBV-based planning, swarming algorithms coordinate multiple agent
 #### 3. Visibility Metric
 To quantitatively evaluate scene observability without requiring full 3D reconstruction, a mesh surface visibility metric based on point cloud coverage is employed. The metric measures how much of the ground-truth object surface is represented by the reconstructed point cloud accumulated from drone depth measurements.
 
----
+
 
 ## Results
 
@@ -100,7 +100,7 @@ For the NBV-based approach, visibility increases consistently as the number of d
 *Mesh Visibility vs. Number of Drones in the NBV-based approach*
 
 
----
+
 
 
 
@@ -110,7 +110,7 @@ For the NBV-based approach, visibility increases consistently as the number of d
 - **Python**: Processing point clouds, MAP-NBV Implementation
 - **PoinTr**, **MAP-NBV**: Open-source libraries implemented for the project
 
----
+
 
 
 ## Future Work

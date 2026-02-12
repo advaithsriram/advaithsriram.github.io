@@ -11,7 +11,7 @@ author_profile: true
 
 This project, which started as my bachelor thesis and was later published at ICRA 2024, focuses on enabling safe and effective **human-to-robot handovers of large objects**, particularly in scenarios where the human's hands are **occluded** by the object. Traditional handover models rely heavily on visible hand detection, which breaks down for large items. This work proposes a novel approach using **pose estimation** to infer the hand's position and generate **a complementary robot pose** that avoids physical contact.
 
----
+
 
 ## Motivation
 
@@ -22,7 +22,7 @@ Our goal was to develop a **vision-based, non-intrusive system** capable of:
 - Predicting a full-body robot pose for safe handover,
 - Running without external sensors or markers.
 
----
+
 
 ## System Overview
 
@@ -39,7 +39,7 @@ The system consists of three core components:
    - <a href="https://github.com/duducosmos/defisheye" target="_blank" rel="noopener noreferrer">De-Fisheye</a> (distortion-corrected fisheye).
 
 
----
+
 
 ## Methodology
 
@@ -53,7 +53,7 @@ The system consists of three core components:
 - **Data Pipeline**:
   - Capture camera frame → extract keypoints with AlphaPose → calculate 4 key angles → predict 14 robot joint angles with DNN → simulate handover in Gazebo → send joint coordinates to Dry-AIREC
 
----
+
 
 ## Key Contributions
 
@@ -65,7 +65,7 @@ The system consists of three core components:
   - Object segmentation masks,
   - Intrinsic object attributes (e.g., Fourier descriptors), improving model accuracy by **17.7%** compared to the pose-only baseline.
 
----
+
 
 ## Results
 
@@ -80,7 +80,7 @@ The system consists of three core components:
 - **Publication**:  
   *Overcoming Hand and Arm Occlusion in Human-to-Robot Handovers: Predicting Safe Poses with a Multimodal DNN Regression Model*, <a href="https://ieeexplore.ieee.org/document/10610777" target="_blank" rel="noopener noreferrer">ICRA 2024</a>
 
----
+
 
 ## Tools and Libraries
 
@@ -90,7 +90,7 @@ The system consists of three core components:
 - **RViz + MoveIt** for visualization and motion planning
 - **De-Fisheye** for distortion correction
 
----
+
 
 ## Reflection and Future Work
 
