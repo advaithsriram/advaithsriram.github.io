@@ -36,6 +36,15 @@ My bachelor’s thesis was recently published as a paper at **ICRA 2024**: *Over
 
 <div class="project-grid">
 
+  <a href="/project/nbv" class="project-card">
+    <img src="/assets/images/nbv_thumbnail.jpg" alt="Next-Best-View">
+    <div class="overlay"></div>
+    <div class="project-info">
+      <h3>Next-Best-View for Multi-Viewpoint Monitoring</h3>
+      <p>Comparing autonomous viewpoint planning and swarming for multi-drone scene observation</p>
+    </div>
+  </a>
+
   <a href="/project/ai-choreo" class="project-card">
     <img src="/assets/images/aixabb_thumbnail.jpg" alt="ABB Choreo">
     <div class="overlay"></div>
