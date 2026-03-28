@@ -22,6 +22,7 @@ Click on any project card above to view full details including methodology, resu
   <button class="filter-btn" data-filter="computer-vision">Computer Vision</button>
   <button class="filter-btn" data-filter="drones">Drones</button>
   <button class="filter-btn" data-filter="simulation">Simulation</button>
+  <button class="filter-btn" data-filter="hobby-other">Hobby/Other</button>
 </div>
 
 <div class="project-grid">
@@ -117,6 +118,19 @@ Click on any project card above to view full details including methodology, resu
       <p>Course Project | Applied Data Analysis @ EPFL</p>
       <div class="tech-tags">
         <span class="tech-tag">Data Analysis</span>
+      </div>
+    </div>
+  </a>
+
+  <a href="../project/wordle" class="project-card" data-tags="hobby-other,ml">
+    <img src="/assets/images/wordle_thumbnail.png" alt="Wordle Solver">
+    <div class="overlay"></div>
+    <div class="project-info">
+      <h3>Wordle Solver: Heuristic + Trained Strategy</h3>
+      <p>Personal Project</p>
+      <div class="tech-tags">
+        <span class="tech-tag">Python</span>
+        <span class="tech-tag">Machine Learning</span>
       </div>
     </div>
   </a>
