@@ -11,6 +11,7 @@ author_profile: true
 
 This project explored the use of **Reinforcement Learning (RL)** to train a simulated quadruped robot (Unitree A1) to walk over **challenging terrains** including slopes and stairs. Using **Proximal Policy Optimization (PPO)** and a custom controller framework, the robot learned stable locomotion strategies across uneven surfaces without relying on a reference gait. We explored the effects of different action spaces, observation spaces, and reward functions on various terrains.
 
+- **Repository**: [GitHub](https://github.com/chiaraevangelisti01/Legged_robots){:target="_blank" rel="noopener noreferrer"}
 - **Robot**: Unitree A1 (simulated)
 - **Environment**: PyBullet
 - **RL Algorithm**: PPO via Stable-Baselines3
