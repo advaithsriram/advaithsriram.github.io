@@ -11,6 +11,7 @@ author_profile: true
 
 This project involved developing a navigation pipeline for the **Bitcraze Crazyflie 2.1** nano drone to autonomously fly through a sequence of gates. In simulation, the drone detects gates using computer vision, computes their position through triangulation, and navigates a course with both precision and speed. On the real hardware, physical gate positions and dimensions were predefined, so no vision-based detection was required. The main challenge was designing a robust trajectory controller to autonomously navigate through the gate sequence using the known waypoints
 
+- **Repository**: [GitHub](https://github.com/advaithsriram/aerial-hardware-project){:target="_blank" rel="noopener noreferrer"}
 - **Environment**: Webots Simulation & Real Hardware (Bitcraze Crazyflie 2.1)
 - **Objective**: Navigate 2 full laps through 4 spatially placed gates  
 - **Libraries**: `crazyflie-lib-python`, OpenCV, Webots API  
