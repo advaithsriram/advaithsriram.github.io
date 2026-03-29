@@ -13,7 +13,7 @@ This project presents an autonomous **Next-Best-View (NBV)** framework for multi
 
 Potential-field-based swarming algorithms are also a powerful method to coordinate multiple drones. Quantitatively comparing the effectiveness of swarming methods with NBV methods can help identify their advantages and limitations.
 
-- **Code Repository**: [GitHub](https://github.com/advaithsriram/vr-swarm-simulation){:target="_blank" rel="noopener noreferrer"}
+- **Repository**: [GitHub](https://github.com/advaithsriram/vr-swarm-simulation){:target="_blank" rel="noopener noreferrer"}
 - **Supporting Repository**: [GitHub](https://github.com/advaithsriram/pointr-nbv-advaith){:target="_blank" rel="noopener noreferrer"}
 - **Objective**: Compare the performance of multi-agent NBV methods with swarming algorithms for scene observation 
 - **Lab**: Laboratory of Intelligent Systems (LIS), EPFL  

@@ -11,8 +11,9 @@ author_profile: true
 
 ## Summary
 
-This project analyzes clickbait patterns in YouTube video titles using data analysis techniques. The full interactive data story with visualizations is available at our [project website](https://epfl-ada.github.io/ada-2025-project-datahunt3rs/){:target="_blank" rel="noopener noreferrer"}. The code is publically available [here](https://github.com/epfl-ada/ada-2025-project-datahunt3rs){:target="_blank" rel="noopener noreferrer"}.
+This project analyzes clickbait patterns in YouTube video titles using data analysis techniques. The full interactive data story with visualizations is available at our [project website](https://epfl-ada.github.io/ada-2025-project-datahunt3rs/){:target="_blank" rel="noopener noreferrer"}. 
 
+- **Repository**: [GitHub](https://github.com/epfl-ada/ada-2025-project-datahunt3rs){:target="_blank" rel="noopener noreferrer"}.
 - **Team**: Advaith Sriram, Harkeerat Singh Sawhney, Nevò Mirzai Hamadani, Sajal Chaurasia, and Dalia Somekh
 - **Dataset**: YouNiverse dataset containing metadata for over 72 million videos
 
