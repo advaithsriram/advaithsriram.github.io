@@ -32,7 +32,7 @@ Welcome to my portfolio site!
 </div>
 
 <div class="cv-download-section">
-  <a href="/assets/docs/AdvaithSriram_CV.pdf" class="cv-download-btn" download>
+  <a href="/assets/docs/AdvaithSriram-Mar2026.pdf" class="cv-download-btn" download>
     <span class="cv-icon">📄</span>
     <span class="cv-text">
       <strong>Download CV</strong>
