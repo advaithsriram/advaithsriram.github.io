@@ -22,7 +22,8 @@ Welcome to my portfolio site!
 - Master’s student in Robotics at EPFL
 - Always learning and exploring new technologies in robotics and AI
 - Strong background in Python, ROS, and simulation tools like PyBullet and Webots  
-- Currently working on Next Best View (NBV) planning for aerial swarms
+- Currently carrying out my master’s thesis in industry at [CynLr SA](https://www.cynlr.com/) on active perception and view planning for object manipulation
+- Searching for full-time jobs from October 2026
 <div class="homepage-badges">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white" alt="ROS2" />
