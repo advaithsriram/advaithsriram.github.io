@@ -14,7 +14,7 @@ header:
   #   - label: "View My Projects"
   #     url: "/projects/"
   #   - label: "Download CV"
-  #     url: "/assets/docs/AdvaithSriram-Mar2026.pdf"
+  #     url: "/assets/docs/AdvaithSriram_CV.pdf"
 excerpt: "Robotics engineer and M.Sc. Robotics student at EPFL focused on robot perception, learning-based control, active perception, and real-world deployment."
 
 ---
@@ -43,10 +43,10 @@ Currently completing an industry master’s thesis at [CynLr SA](https://www.cyn
 </div>
 
 <div class="cv-download-section">
-  <a href="/assets/docs/AdvaithSriram-Mar2026.pdf" class="cv-download-btn" download>
+  <a href="/assets/docs/AdvaithSriram_CV.pdf" class="cv-download-btn" download>
     <span class="cv-text">
       <strong>Download CV</strong>
-      <small>Updated March 2026</small>
+      <small>Updated May 2026</small>
     </span>
   </a>
 </div>

@@ -27,7 +27,7 @@ title                    : "Portfolio"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Advaith Sriram"
-description              : "Robotics Graduate Student at EPFL, Switzerland."
+description              : "Robotics Engineer | M.Sc. Robotics at EPFL"
 url                      : https://advaithsriram.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "advaithsriram/advaithsriram.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -121,7 +121,7 @@ analytics:
 author:
   name             : "Advaith Sriram"
   avatar           : "/assets/images/photo.jpg"
-  bio              : "Robotics Graduate Student at EPFL, Switzerland."
+  bio              : "Robotics Engineer | M.Sc. Robotics at EPFL"
   location         : "Lausanne, Switzerland"
   linkedin         :  "advaith-sriram"
   email            : "advaith.sriram@epfl.ch"
