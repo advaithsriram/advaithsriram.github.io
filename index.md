@@ -2,6 +2,8 @@
 layout: single
 title: "Advaith Sriram"
 subtitle: "Robotics Graduate Student at EPFL"
+classes:
+  - home-hero-tall
 sidebar:
   nav: "main"
 header:
