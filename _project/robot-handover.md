@@ -5,6 +5,9 @@ permalink: /project/robot-handover
 author_profile: true
 card_title: "Human-to-Robot Handover (ICRA 2024)"
 card_summary: "Developed an occlusion-robust handover pipeline using AlphaPose and multimodal DNN regression; work was published at ICRA 2024."
+card_meta: "Waseda University · AlphaPose + PyTorch · ICRA 2024"
+card_link_2_label: "Paper"
+card_link_2_url: "https://ieeexplore.ieee.org/document/10610777"
 thumbnail: "/assets/images/bachelorthesis_thumbnail.jpg"
 card_tags: "robotics,computer-vision"
 project_group: "featured_robotics"

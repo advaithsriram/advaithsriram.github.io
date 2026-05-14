@@ -5,8 +5,6 @@ permalink: /projects/
 author_profile: true
 ---
 
-Curated project portfolio for robotics engineering roles, with strongest robotics deployment and research work prioritized first.
-
 {% assign featured_robotics = site.project | where_exp: "item", "item.project_group == 'featured_robotics'" | sort: "project_priority" %}
 {% assign additional_robotics = site.project | where_exp: "item", "item.project_group == 'additional_robotics'" | sort: "project_priority" %}
 {% assign other_projects = site.project | where_exp: "item", "item.project_group == 'other'" | sort: "project_priority" %}

@@ -5,6 +5,9 @@ permalink: /project/nbv
 author_profile: true
 card_title: "Multi-Agent Next-Best-View for Active Perception"
 card_summary: "Implemented and benchmarked MAP-NBV against swarm control in Unity + Python to maximize scene coverage with coordinated drone viewpoints."
+card_meta: "EPFL LIS · Unity + Python · Multi-agent active perception"
+card_link_2_label: "Code"
+card_link_2_url: "https://github.com/advaithsriram/vr-swarm-simulation"
 thumbnail: "/assets/images/nbv_thumbnail.jpg"
 card_tags: "robotics,computer-vision,simulation,drones"
 project_group: "featured_robotics"

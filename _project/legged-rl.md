@@ -5,6 +5,9 @@ permalink: /project/legged-rl
 author_profile: true
 card_title: "Reinforcement Learning for Legged Locomotion"
 card_summary: "Trained PPO policies in PyBullet for a Unitree A1 quadruped to traverse slopes and stairs without a reference gait."
+card_meta: "EPFL Legged Robots · PPO + PyBullet · Unitree A1"
+card_link_2_label: "Code"
+card_link_2_url: "https://github.com/chiaraevangelisti01/Legged_robots"
 thumbnail: "/assets/images/lr_thumbnail.png"
 card_tags: "robotics,ml,simulation"
 project_group: "featured_robotics"

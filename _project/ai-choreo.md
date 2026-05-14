@@ -5,6 +5,7 @@ permalink: /project/ai-choreo
 author_profile: true
 card_title: "ABB x AI-Driven Choreography"
 card_summary: "Deployed a ROS 2 + VAE motion-generation pipeline on an ABB GoFa CRB 15000 for a public installation at Swiss Design Awards 2025."
+card_meta: "EPFL REHAssist · ABB GoFa CRB 15000 · ROS 2"
 thumbnail: "/assets/images/aixabb_thumbnail.jpg"
 card_tags: "robotics,ml,ros"
 project_group: "featured_robotics"
