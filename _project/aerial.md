@@ -15,7 +15,7 @@ project_priority: 1
 
 ## Summary
 
-This project involved developing a navigation pipeline for the **Bitcraze Crazyflie 2.1** nano drone to autonomously fly through a sequence of gates. In simulation, the drone detects gates using computer vision, computes their position through triangulation, and navigates a course with both precision and speed. On the real hardware, physical gate positions and dimensions were predefined, so no vision-based detection was required. The main challenge was designing a robust trajectory controller to autonomously navigate through the gate sequence using the known waypoints
+Built a **Bitcraze Crazyflie 2.1** navigation pipeline that transferred from Webots simulation to hardware flight. In simulation, the drone used OpenCV-based gate detection and triangulation; on hardware, it executed waypoint-based trajectory control through known gate poses. The main engineering focus was robust trajectory generation for reliable autonomous laps through spatial gates.
 
 - **Repository**: [GitHub](https://github.com/advaithsriram/aerial-hardware-project){:target="_blank" rel="noopener noreferrer"}
 - **Environment**: Webots Simulation & Real Hardware (Bitcraze Crazyflie 2.1)
@@ -27,7 +27,7 @@ This project involved developing a navigation pipeline for the **Bitcraze Crazyf
 
 ## Simulation Phase
 
-Using **Webots**, we simulated a randomized gate course in 3D space. The drone’s onboard camera captured images of the environment, and gates were detected using a **color-based segmentation + contour detection** pipeline.
+Implemented a randomized 3D gate course in **Webots**. The drone’s onboard camera captured images of the environment, and gates were detected using a **color-based segmentation + contour detection** pipeline.
 
 - Triangulation was used to compute gate position from edge and center points
 - Navigation was done by computing entry and exit vectors, rather than passing through the center, to improve robustness
@@ -79,6 +79,6 @@ After successful simulation tests, the codebase was adapted to work with the **C
 ## Key Takeaways
 
 - **Gate detection via entry/exit vectors** significantly improved robustness compared to center-only targeting  
-- Successfully adapted simulation pipeline for real-world hardware execution  
+- Adapted the navigation stack from simulation to real-world Crazyflie hardware execution  
 
 ---

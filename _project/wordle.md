@@ -15,7 +15,7 @@ project_priority: 2
 
 ## Summary
 
-This is a personal Wordle solver project built in Python with both a naive heuristic strategy and a lightweight trained strategy model. The project also includes an interactive Streamlit UI and a benchmark pipeline to evaluate solve performance at scale.
+Developed a Python Wordle solver with both a heuristic baseline and a lightweight trained strategy model. The project includes an interactive Streamlit UI and a benchmark pipeline for evaluating solve performance at scale.
 
 - **Tag**: Hobby/Other
 - **Project Type**: Personal Project
@@ -28,7 +28,7 @@ This is a personal Wordle solver project built in Python with both a naive heuri
 
 ## Approach
 
-### 1. Naive Heuristic Solver
+### 1. Heuristic Solver
 
 The baseline solver uses letter-frequency heuristics and candidate elimination:
 

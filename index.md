@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Advaith Sriram"
-subtitle: "Robotics Graduate Student at EPFL"
+subtitle: "Robotics Engineer | M.Sc. Robotics at EPFL"
 classes:
   - home-hero-tall
 sidebar:
@@ -21,7 +21,7 @@ excerpt: "Robotics engineer and M.Sc. Robotics student at EPFL focused on robot 
 
 Robotics engineer and **M.Sc. Robotics student at EPFL** focused on **robot perception, learning-based control, active perception, and real-world deployment**.
 
-Currently completing an industry master’s thesis at [CynLr SA](https://www.cynlr.com/) on active perception and view planning for object manipulation, and seeking full-time robotics engineering roles from **October 2026**.
+Currently completing an industry master’s thesis at [CynLr SA](https://www.cynlr.com/){:target="_blank" rel="noopener noreferrer"} on active perception and view planning for object manipulation, and seeking full-time robotics engineering roles from **October 2026**.
 
 <div class="selected-highlights">
   <div class="highlight-item">
@@ -38,7 +38,7 @@ Currently completing an industry master’s thesis at [CynLr SA](https://www.cyn
   </div>
   <div class="highlight-item">
     <h3>ABB GoFa Deployment</h3>
-    <p>Installed AI-driven choreography system exhibited at Swiss Design Awards 2025.</p>
+    <p>Deployed AI-driven choreography system exhibited at Swiss Design Awards 2025.</p>
   </div>
 </div>
 

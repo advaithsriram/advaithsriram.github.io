@@ -19,7 +19,7 @@ featured_order: 4
 
 ## Summary
 
-This project explored the use of **Reinforcement Learning (RL)** to train a simulated quadruped robot (Unitree A1) to walk over **challenging terrains** including slopes and stairs. Using **Proximal Policy Optimization (PPO)** and a custom controller framework, the robot learned stable locomotion strategies across uneven surfaces without relying on a reference gait. We explored the effects of different action spaces, observation spaces, and reward functions on various terrains.
+Trained **Proximal Policy Optimization (PPO)** policies for a simulated Unitree A1 quadruped in PyBullet, evaluating terrain-adaptive locomotion across slopes, stairs, and randomized terrain parameters. The controller learned stable walking behavior without relying on a reference gait, using a custom simulation and control framework.
 
 - **Repository**: [GitHub](https://github.com/chiaraevangelisti01/Legged_robots){:target="_blank" rel="noopener noreferrer"}
 - **Robot**: Unitree A1 (simulated)
@@ -44,7 +44,7 @@ This project explored the use of **Reinforcement Learning (RL)** to train a simu
 
 ## Project Overview
 
-We implemented a custom simulation and control stack for a quadruped robot to learn terrain-adaptive walking behavior via PPO. The system included:
+Implemented a custom simulation and control stack for terrain-adaptive quadruped locomotion via PPO. The system included:
 - A tunable **PD controller** in both joint-space and Cartesian-space
 - Flexible terrain generation and observation design
 - An **extended observation space** including:
@@ -95,7 +95,7 @@ These randomized conditions ensured the policy could adapt to unseen variations 
 
 
 
-## Key Learnings
+## Technical Takeaways
 
 - Reward shaping was critical as small changes drastically impacted stability
 - Including **CPG phase and amplitude** in the observation space significantly improved terrain adaptation
@@ -104,7 +104,7 @@ These randomized conditions ensured the policy could adapt to unseen variations 
 
 
 
-## Future Work
+## Possible Extensions
 
 - Extend terrain types (e.g. gaps, obstacles)
 - Transfer learned policy to real robot using domain randomization

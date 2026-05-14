@@ -19,7 +19,7 @@ featured_order: 2
 
 ## Summary
 
-This project, which started as my bachelor thesis and was later published at ICRA 2024, focuses on enabling safe and effective **human-to-robot handovers of large objects**, particularly in scenarios where the human's hands are **occluded** by the object. Traditional handover models rely heavily on visible hand detection, which breaks down for large items. This work proposes a novel approach using **pose estimation** to infer the hand's position and generate **a complementary robot pose** that avoids physical contact.
+Published at **ICRA 2024**, this work developed an occlusion-robust **human-to-robot handover** pipeline for large objects using pose estimation and multimodal DNN regression. The system inferred hidden hand positions from upper-body pose and generated complementary robot arm poses to reduce unwanted contact during handover.
 
 
 
@@ -27,7 +27,7 @@ This project, which started as my bachelor thesis and was later published at ICR
 
 Human-robot handovers are essential for collaborative robotics. While extensive research exists for **small-object handovers**, large objects introduce a new challenge: **occlusion of the human hand**. When hands are hidden, typical computer vision methods like MediaPipe fail, and robots risk **contact-based discomfort or safety hazards**.
 
-Our goal was to develop a **vision-based, non-intrusive system** capable of:
+The system was designed as a **vision-based, non-intrusive pipeline** capable of:
 - Estimating occluded hand positions,
 - Predicting a full-body robot pose for safe handover,
 - Running without external sensors or markers.
@@ -102,9 +102,9 @@ The system consists of three core components:
 
 
 
-## Reflection and Future Work
+## Technical Takeaways
 
-This work highlighted the importance of robust pose estimation in physical human-robot interaction. Potential future directions include:
+This work highlighted the importance of robust pose estimation in physical human-robot interaction. Potential extensions include:
 - Integrating temporal modeling (e.g. LSTM) for dynamic handovers,
 - Expanding to **bidirectional handovers** (robot-to-human),
 - Real-world hardware deployment beyond simulation.
