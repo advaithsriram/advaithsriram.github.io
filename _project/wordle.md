@@ -5,6 +5,9 @@ permalink: /project/wordle
 author_profile: true
 card_title: "Wordle Solver: Heuristic + Trained Strategy"
 card_summary: "Developed a Python solver and benchmark pipeline with a lightweight trained strategy model and 99.40% solve rate."
+card_meta: "Python · Streamlit · Benchmarking"
+card_link_2_label: "Code"
+card_link_2_url: "https://github.com/advaithsriram/Wordle-Solver"
 thumbnail: "/assets/images/wordle_thumbnail.png"
 card_tags: "hobby-other,ml"
 project_group: "other"

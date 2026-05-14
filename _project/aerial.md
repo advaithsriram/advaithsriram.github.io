@@ -5,6 +5,9 @@ permalink: /project/aerial
 author_profile: true
 card_title: "Simulation and Hardware: Crazyflie Drone"
 card_summary: "Built and deployed a gate-navigation pipeline from Webots simulation to Crazyflie 2.1 hardware using OpenCV and trajectory control."
+card_meta: "EPFL Aerial Robotics · Webots + OpenCV · Crazyflie 2.1"
+card_link_2_label: "Code"
+card_link_2_url: "https://github.com/advaithsriram/aerial-hardware-project"
 thumbnail: "/assets/images/sim_setup.png"
 card_tags: "robotics,computer-vision,drones"
 project_group: "additional_robotics"

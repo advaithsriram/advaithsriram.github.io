@@ -6,6 +6,40 @@ author_profile: true
 ---
 
 
+## Highlights
+
+- **M.Sc. Robotics at EPFL** with a Data Science minor
+- Industry thesis at **CynLr** on active perception and view planning for robotic manipulation
+- Published **ICRA 2024** work on occlusion-robust human-to-robot handover as **co-first author**
+- Deployed an **ABB GoFa** AI-driven choreography system exhibited at **Swiss Design Awards 2025**, Basel
+- Developed vehicle-control tooling for **Level-4 autonomous trucks** at Daimler Trucks Asia
+- Built robotics systems across ROS 2, PyTorch, OpenCV, PyBullet, Webots, Unity, and real robot hardware
+
+
+---
+
+## Leadership & Community
+
+As part of my extracurricular involvement at Waseda University, I co-founded the **Google Developer Groups on Campus (GDGoC)** chapter at **Waseda University** in 2021, a Google-backed student tech community where I served as **President** from 2022–23.
+
+- Led and helped build a growing, interdisciplinary community of students passionate about technology and innovation
+- Organized workshops, hackathons, and speaker sessions in collaboration with Google Japan
+- Gained practical experience in leadership, communication, teamwork, and decision-making
+- Fostered interdisciplinary collaboration between engineering, design, and business students
+
+--- 
+
+
+## Technical Interests and Skills
+
+- **Robot Perception & Active Perception**: next-best-view planning, multi-viewpoint monitoring, pose estimation, hand/arm occlusion handling
+- **Learning-Based Control & Motion Generation**: PPO for legged locomotion, VAE-based robot motion generation, terrain-adaptive control
+- **Robotics Deployment**: ROS 2 integration, ABB GoFa control, RobotStudio safety setup, Crazyflie hardware flight, simulation-to-hardware transfer
+- **Tools & Frameworks**: Python, C++, PyTorch, ROS 2, OpenCV, MediaPipe, AlphaPose, PyBullet, Webots, Unity
+
+---
+
+
 ## Education & Experience
 
 <div class="timeline">
@@ -89,37 +123,3 @@ author_profile: true
     <span style="font-size: 0.85rem; color: #666;">Leadership</span>
   </div>
 </div>
-
----
-
-## Highlights
-
-- Published at **ICRA 2024**  
-- Project exhibited at **Swiss Design Awards 2025**, Basel
-- Developed vehicle control systems for **Level-4 autonomous trucks** at Daimler Trucks Asia
-- **President & Co-founder of Google Developer Groups on Campus** (Waseda University Chapter)
-- Built and deployed navigation pipelines on **Crazyflie drones** (simulation + hardware)  
-- Trained a simulated quadruped robot to walk on stairs and slopes using **Reinforcement Learning**
-
----
-
-## Leadership & Community
-
-As part of my extracurricular involvement at Waseda University, I co-founded the **Google Developer Groups on Campus (GDGoC)** chapter at **Waseda University** in 2021, a Google-backed student tech community where I served as **President** from 2022–23.
-
-- Led and helped build a growing, interdisciplinary community of students passionate about technology and innovation
-- Organized workshops, hackathons, and speaker sessions in collaboration with Google Japan
-- Gained practical experience in leadership, communication, teamwork, and decision-making
-- Fostered interdisciplinary collaboration between engineering, design, and business students
-
---- 
-
-
-## Technical Interests and Skills
-
-- **Robotics**: Legged locomotion, trajectory optimization, aerial navigation, robot perception
-- **Machine Learning**: Reinforcement Learning (PPO), generative models (VAEs), pose and hand estimation (MediaPipe, AlphaPose)
-- **Tools & Frameworks**: PyTorch, ROS2, PyBullet, Webots, OpenCV
-
----
-

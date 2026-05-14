@@ -5,6 +5,9 @@ permalink: /project/clickbait
 author_profile: true
 card_title: "Analysis of Clickbait in YouTube Titles"
 card_summary: "Built a large-scale clickbait analysis pipeline across 72M videos, combining classification, hypothesis testing, and engagement modeling."
+card_meta: "EPFL Applied Data Analysis · YouNiverse dataset · Statistical modeling"
+card_link_2_label: "Code"
+card_link_2_url: "https://github.com/epfl-ada/ada-2025-project-datahunt3rs"
 thumbnail: "/assets/images/clickbait_thumbnail.jpg"
 card_tags: "ml"
 project_group: "other"

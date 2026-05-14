@@ -11,45 +11,81 @@ author_profile: true
 
 ## Featured Robotics Projects
 
-<div class="project-grid">
+<div class="featured-project-list">
 {% for project in featured_robotics %}
-  <a href="{{ project.url | relative_url }}" class="project-card" data-tags="{{ project.card_tags }}">
-    <img src="{{ project.thumbnail }}" alt="{{ project.card_title | default: project.title }}">
-    <div class="overlay"></div>
-    <div class="project-info">
-      <h3>{{ project.card_title | default: project.title }}</h3>
-      <p>{{ project.card_summary }}</p>
+  <article class="featured-project-item" data-tags="{{ project.card_tags }}">
+    <a href="{{ project.url | relative_url }}" class="featured-project-media-link">
+      <img src="{{ project.thumbnail }}" alt="{{ project.card_title | default: project.title }}" class="featured-project-media">
+    </a>
+    <div class="featured-project-content">
+      <h3 class="featured-project-title">
+        <a href="{{ project.url | relative_url }}">{{ project.card_title | default: project.title }}</a>
+      </h3>
+      {% if project.card_meta %}
+      <p class="featured-project-meta">{{ project.card_meta }}</p>
+      {% endif %}
+      <p class="featured-project-summary">{{ project.card_summary }}</p>
+      <p class="featured-project-links">
+        [<a href="{{ project.url | relative_url }}">project page</a>]
+        {% if project.card_link_2_label and project.card_link_2_url %}
+        [<a href="{{ project.card_link_2_url }}" target="_blank" rel="noopener noreferrer">{{ project.card_link_2_label | downcase }}</a>]
+        {% endif %}
+      </p>
     </div>
-  </a>
+  </article>
 {% endfor %}
 </div>
 
 ## Additional Robotics / Technical Projects
 
-<div class="project-grid">
+<div class="featured-project-list">
 {% for project in additional_robotics %}
-  <a href="{{ project.url | relative_url }}" class="project-card" data-tags="{{ project.card_tags }}">
-    <img src="{{ project.thumbnail }}" alt="{{ project.card_title | default: project.title }}">
-    <div class="overlay"></div>
-    <div class="project-info">
-      <h3>{{ project.card_title | default: project.title }}</h3>
-      <p>{{ project.card_summary }}</p>
+  <article class="featured-project-item" data-tags="{{ project.card_tags }}">
+    <a href="{{ project.url | relative_url }}" class="featured-project-media-link">
+      <img src="{{ project.thumbnail }}" alt="{{ project.card_title | default: project.title }}" class="featured-project-media">
+    </a>
+    <div class="featured-project-content">
+      <h3 class="featured-project-title">
+        <a href="{{ project.url | relative_url }}">{{ project.card_title | default: project.title }}</a>
+      </h3>
+      {% if project.card_meta %}
+      <p class="featured-project-meta">{{ project.card_meta }}</p>
+      {% endif %}
+      <p class="featured-project-summary">{{ project.card_summary }}</p>
+      <p class="featured-project-links">
+        [<a href="{{ project.url | relative_url }}">project page</a>]
+        {% if project.card_link_2_label and project.card_link_2_url %}
+        [<a href="{{ project.card_link_2_url }}" target="_blank" rel="noopener noreferrer">{{ project.card_link_2_label | downcase }}</a>]
+        {% endif %}
+      </p>
     </div>
-  </a>
+  </article>
 {% endfor %}
 </div>
 
 ## Other Projects
 
-<div class="project-grid">
+<div class="featured-project-list">
 {% for project in other_projects %}
-  <a href="{{ project.url | relative_url }}" class="project-card" data-tags="{{ project.card_tags }}">
-    <img src="{{ project.thumbnail }}" alt="{{ project.card_title | default: project.title }}">
-    <div class="overlay"></div>
-    <div class="project-info">
-      <h3>{{ project.card_title | default: project.title }}</h3>
-      <p>{{ project.card_summary }}</p>
+  <article class="featured-project-item" data-tags="{{ project.card_tags }}">
+    <a href="{{ project.url | relative_url }}" class="featured-project-media-link">
+      <img src="{{ project.thumbnail }}" alt="{{ project.card_title | default: project.title }}" class="featured-project-media">
+    </a>
+    <div class="featured-project-content">
+      <h3 class="featured-project-title">
+        <a href="{{ project.url | relative_url }}">{{ project.card_title | default: project.title }}</a>
+      </h3>
+      {% if project.card_meta %}
+      <p class="featured-project-meta">{{ project.card_meta }}</p>
+      {% endif %}
+      <p class="featured-project-summary">{{ project.card_summary }}</p>
+      <p class="featured-project-links">
+        [<a href="{{ project.url | relative_url }}">project page</a>]
+        {% if project.card_link_2_label and project.card_link_2_url %}
+        [<a href="{{ project.card_link_2_url }}" target="_blank" rel="noopener noreferrer">{{ project.card_link_2_label | downcase }}</a>]
+        {% endif %}
+      </p>
     </div>
-  </a>
+  </article>
 {% endfor %}
 </div>
