@@ -3,6 +3,12 @@ title: "Clickbait Detection in YouTube Titles"
 layout: single
 permalink: /project/clickbait
 author_profile: true
+card_title: "Analysis of Clickbait in YouTube Titles"
+card_summary: "Built a large-scale clickbait analysis pipeline across 72M videos, combining classification, hypothesis testing, and engagement modeling."
+thumbnail: "/assets/images/clickbait_thumbnail.jpg"
+card_tags: "ml"
+project_group: "other"
+project_priority: 1
 ---
 
 {% include project-status.html status="Completed" %}

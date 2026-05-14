@@ -3,6 +3,12 @@ title: "Wordle Solver: Heuristic + Trained Strategy"
 layout: single
 permalink: /project/wordle
 author_profile: true
+card_title: "Wordle Solver: Heuristic + Trained Strategy"
+card_summary: "Developed a Python solver and benchmark pipeline with a lightweight trained strategy model and 99.40% solve rate."
+thumbnail: "/assets/images/wordle_thumbnail.png"
+card_tags: "hobby-other,ml"
+project_group: "other"
+project_priority: 2
 ---
 
 {% include project-status.html status="Completed" %}

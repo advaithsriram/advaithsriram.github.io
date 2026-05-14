@@ -3,6 +3,12 @@ title: "Visual-Guided Dual-Arm Synchronization with Decentralized Control"
 layout: single
 permalink: /project/dualbot
 author_profile: true
+card_title: "Visual-Guided Dual-Arm Synchronization"
+card_summary: "Independent robotics project on decentralized dual-arm coordination with vision-guided control in simulation."
+thumbnail: "/assets/images/dualbot_thumbnail.jpg"
+card_tags: "robotics,computer-vision,simulation"
+project_group: "additional_robotics"
+project_priority: 2
 ---
 
 {% include project-status.html status="Completed" %}

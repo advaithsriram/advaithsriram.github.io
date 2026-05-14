@@ -3,6 +3,13 @@ title: "Reinforcement Learning for Legged Locomotion Simulation"
 layout: single
 permalink: /project/legged-rl
 author_profile: true
+card_title: "Reinforcement Learning for Legged Locomotion"
+card_summary: "Trained PPO policies in PyBullet for a Unitree A1 quadruped to traverse slopes and stairs without a reference gait."
+thumbnail: "/assets/images/lr_thumbnail.png"
+card_tags: "robotics,ml,simulation"
+project_group: "featured_robotics"
+project_priority: 4
+featured_order: 4
 ---
 
 {% include project-status.html status="Completed" %}

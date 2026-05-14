@@ -3,6 +3,12 @@ title: "Simulation and Hardware Project: Crazyflie Drone"
 layout: single
 permalink: /project/aerial
 author_profile: true
+card_title: "Simulation and Hardware: Crazyflie Drone"
+card_summary: "Built and deployed a gate-navigation pipeline from Webots simulation to Crazyflie 2.1 hardware using OpenCV and trajectory control."
+thumbnail: "/assets/images/sim_setup.png"
+card_tags: "robotics,computer-vision,drones"
+project_group: "additional_robotics"
+project_priority: 1
 ---
 
 {% include project-status.html status="Completed" %}

@@ -3,6 +3,13 @@ title: "ABB x AI Driven Choreography"
 layout: single
 permalink: /project/ai-choreo
 author_profile: true
+card_title: "ABB x AI-Driven Choreography"
+card_summary: "Deployed a ROS 2 + VAE motion-generation pipeline on an ABB GoFa CRB 15000 for a public installation at Swiss Design Awards 2025."
+thumbnail: "/assets/images/aixabb_thumbnail.jpg"
+card_tags: "robotics,ml,ros"
+project_group: "featured_robotics"
+project_priority: 1
+featured_order: 1
 ---
 
 {% include project-status.html status="Completed" %}

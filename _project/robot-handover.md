@@ -3,6 +3,13 @@ title: "Bachelor Thesis: Human-to-Robot Handover of Large Objects using Pose Est
 layout: single
 permalink: /project/robot-handover
 author_profile: true
+card_title: "Human-to-Robot Handover (ICRA 2024)"
+card_summary: "Developed an occlusion-robust handover pipeline using AlphaPose and multimodal DNN regression; work was published at ICRA 2024."
+thumbnail: "/assets/images/bachelorthesis_thumbnail.jpg"
+card_tags: "robotics,computer-vision"
+project_group: "featured_robotics"
+project_priority: 2
+featured_order: 2
 ---
 
 {% include project-status.html status="Completed" %}

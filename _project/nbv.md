@@ -3,6 +3,13 @@ title: "Next-Best-View for Multi-Viewpoint Monitoring"
 layout: single
 permalink: /project/nbv
 author_profile: true
+card_title: "Multi-Agent Next-Best-View for Active Perception"
+card_summary: "Implemented and benchmarked MAP-NBV against swarm control in Unity + Python to maximize scene coverage with coordinated drone viewpoints."
+thumbnail: "/assets/images/nbv_thumbnail.jpg"
+card_tags: "robotics,computer-vision,simulation,drones"
+project_group: "featured_robotics"
+project_priority: 3
+featured_order: 3
 ---
 
 {% include project-status.html status="Completed" %}

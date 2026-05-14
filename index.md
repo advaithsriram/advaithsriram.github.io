@@ -13,80 +13,53 @@ header:
   #     url: "/projects/"
   #   - label: "Download CV"
   #     url: "/assets/docs/AdvaithSriram-Mar2026.pdf"
-excerpt: "I'm passionate about robotics and AI, and am pursuing a Master's degree (M.Sc.) in Robotics with a Data Science minor"
+excerpt: "Robotics engineer and M.Sc. Robotics student at EPFL focused on robot perception, learning-based control, active perception, and real-world deployment."
 
 ---
 
-Welcome to my portfolio site!
+Robotics engineer and **M.Sc. Robotics student at EPFL** focused on **robot perception, learning-based control, active perception, and real-world deployment**.
 
-- Master’s student in Robotics at EPFL
-- Always learning and exploring new technologies in robotics and AI
-- Strong background in Python, ROS, and simulation tools like PyBullet and Webots  
-- Currently carrying out my master’s thesis in industry at [CynLr SA](https://www.cynlr.com/) on active perception and view planning for object manipulation
-- Searching for full-time jobs from October 2026
-<div class="homepage-badges">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white" alt="ROS2" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
+Currently completing an industry master’s thesis at [CynLr SA](https://www.cynlr.com/) on active perception and view planning for object manipulation, and seeking full-time robotics engineering roles from **October 2026**.
+
+<div class="selected-highlights">
+  <div class="highlight-item">
+    <h3>M.Sc. Robotics at EPFL</h3>
+    <p>Robotics major with a Data Science minor.</p>
+  </div>
+  <div class="highlight-item">
+    <h3>Industry Thesis at CynLr</h3>
+    <p>Active perception and next-view planning for robotic manipulation.</p>
+  </div>
+  <div class="highlight-item">
+    <h3>ICRA 2024 Publication</h3>
+    <p>Published human-to-robot handover research on occlusion-robust pose prediction.</p>
+  </div>
+  <div class="highlight-item">
+    <h3>ABB GoFa Deployment</h3>
+    <p>Installed AI-driven choreography system exhibited at Swiss Design Awards 2025.</p>
+  </div>
 </div>
 
 <div class="cv-download-section">
   <a href="/assets/docs/AdvaithSriram-Mar2026.pdf" class="cv-download-btn" download>
-    <span class="cv-icon">📄</span>
     <span class="cv-text">
       <strong>Download CV</strong>
       <small>Updated March 2026</small>
     </span>
   </a>
 </div>
-<!-- My bachelor’s thesis was recently published as a paper at **ICRA 2024**: *Overcoming Hand and Arm Occlusion in Human-to-Robot Handovers*. [![ICRA 2024 Publication](https://img.shields.io/badge/Published%20at-ICRA%202024-blue)](https://ieeexplore.ieee.org/abstract/document/10610777){:target="_blank"} -->
-My bachelor’s thesis was recently published as a paper at **ICRA 2024**: *Overcoming Hand and Arm Occlusion in Human-to-Robot Handovers*.
-<a href="https://ieeexplore.ieee.org/document/10610777" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Published%20at-ICRA%202024-blue" alt="ICRA 2024 Publication Badge" />
-</a>
-
-
-
 ## Featured Projects
 
+{% assign featured_projects = site.project | where_exp: "item", "item.featured_order != nil" | sort: "featured_order" %}
 <div class="project-grid">
-
-  <a href="/project/nbv" class="project-card">
-    <img src="/assets/images/nbv_thumbnail.jpg" alt="Next-Best-View">
+{% for project in featured_projects %}
+  <a href="{{ project.url | relative_url }}" class="project-card">
+    <img src="{{ project.thumbnail }}" alt="{{ project.card_title | default: project.title }}">
     <div class="overlay"></div>
     <div class="project-info">
-      <h3>Next-Best-View for Multi-Viewpoint Monitoring</h3>
-      <p>Comparing autonomous viewpoint planning and swarming algorithms</p>
+      <h3>{{ project.card_title | default: project.title }}</h3>
+      <p>{{ project.card_summary }}</p>
     </div>
   </a>
-
-  <a href="/project/ai-choreo" class="project-card">
-    <img src="/assets/images/aixabb_thumbnail.jpg" alt="ABB Choreo">
-    <div class="overlay"></div>
-    <div class="project-info">
-      <h3>ABB x AI Driven Choreography</h3>
-      <p>Mapping music to robot motion using a Variational Autoencoder</p>
-    </div>
-  </a>
-
-  <a href="/project/legged-rl" class="project-card">
-    <img src="/assets/images/lr_thumbnail.png" alt="Legged RL">
-    <div class="overlay"></div>
-    <div class="project-info">
-      <h3>Reinforcement Learning for Legged Locomotion</h3>
-      <p>Simulated quadruped learns to walk on stairs and slopes with PPO</p>
-    </div>
-  </a>
-
-  <a href="/project/robot-handover" class="project-card">
-    <img src="/assets/images/bachelorthesis_thumbnail.jpg" alt="Handover">
-    <div class="overlay"></div>
-    <div class="project-info">
-      <h3>Bachelor Thesis: Human-to-Robot Handover</h3>
-      <p>Pose-estimation based handover of large objects under occlusion</p>
-    </div>
-  </a>
-
+{% endfor %}
 </div>
