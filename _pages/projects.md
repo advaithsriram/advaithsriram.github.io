@@ -36,7 +36,7 @@ author_profile: true
 {% endfor %}
 </div>
 
-## Additional Robotics / Technical Projects
+## Additional Robotics Projects
 
 <div class="featured-project-list">
 {% for project in additional_robotics %}
